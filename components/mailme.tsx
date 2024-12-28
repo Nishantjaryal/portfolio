@@ -18,11 +18,11 @@ export function WavyBackgroundDemo() {
     Set_icon_code(<IoCheckmarkDoneCircleSharp className="w-[22px] h-[22px]"/> )
   };
   return (
-    <WavyBackground className="max-w-4xl mx-auto pb-[15rem] h-[320px] max-sm:h-[200px]  flex items-center justify-center flex-col max-sm:gap-4 pop-animation2">
-      <p className="text-3xl md:text-4xl lg:text-7xl text-white font-bold inter-var text-center">
-        Let&apos;s Build Togeather
+    <WavyBackground className="max-w-4xl w-full mx-auto pb-[15rem] h-[320px] max-sm:h-[200px]  flex items-center justify-center flex-col max-sm:gap-4 pop-animation2">
+      <p className="w-[90%] md:text-4xl lg:text-7xl relative bg-clip-text text-5xl mb-2 font-bold tracking-tighter text-transparent bg-no-repeat leading-none py-4  bg-gradient-to-r from-blue-500 via-green-500 to-violet-500  inter-var text-center">
+        Let&apos;s Build it Togeather
       </p>
-      <p className="text-base md:text-lg mt-4 text-white font-normal inter-var text-center max-sm:px-5">
+      <p className="  text-lg  mt-4 text-white font-normal inter-var text-center max-sm:px-5">
       Collaborate to Showcase skills, passion, and creativity
       </p>
       <MagicButton

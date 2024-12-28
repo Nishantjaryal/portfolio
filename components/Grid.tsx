@@ -168,7 +168,7 @@ export default function BentoGridThirdDemo() {
   ];
 
   return (
-    <BentoGrid className="max-w-[950px] mb-10 w-full mx-auto md:auto-rows-[20rem]">
+    <BentoGrid className="max-w-[950px] max-sm:mb-10 mb-5 w-full mx-auto md:auto-rows-[20rem]">
       {items.map((item, i) => (
         <BentoGridItem
           key={i}

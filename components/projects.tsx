@@ -13,16 +13,16 @@ export function AnimatedPinDemo() {
         
 
         <BackgroundBeamsWithCollision >
-      <h2 className="text-2xl relative leading-none z-20 md:text-4xl lg:text-6xl font-bold text-center text-white font-sans tracking-tight">
-        Exploring Modern technologies 
+      <h2 className="relative text-center text-[35px] 
+            md:text-4xl lg:text-6xl tracking-tight leading-none font-bold text-white ">
+        Exploring Modern Tech 
 
 
-        <div className=" relative mx-auto block w-max [filter:drop-shadow(0px_1px_3px_rgba(27,_37,_80,_0.14))]">
           
-          <div className="relative bg-clip-text text-transparent bg-no-repeat leading-none  bg-gradient-to-r from-yellow-500 via-violet-500 to-pink-500 py-4">
+          <div className=" text-center text-[35px] 
+            md:text-4xl lg:text-6xl tracking-tight leading-none relative bg-clip-text text-transparent bg-no-repeat font-bold  bg-gradient-to-r from-yellow-500 via-violet-500 to-pink-500 py-4">
             <span className="">To Create Solutions</span>
           </div>
-        </div>
       </h2>
 
 
@@ -31,7 +31,7 @@ export function AnimatedPinDemo() {
   <div className="flex flex-row flex-wrap justify-center items-center">
     {
         projects.map((project)=>(
-            <div key={project.id} className="h-[32rem]  flex items-center justify-center ">
+            <div key={project.id} className=" h-[32rem] max-md:h-[28rem]  flex items-center justify-center ">
       <PinContainer
         title={`🔗 ${project.title}`}
         href={project.link}

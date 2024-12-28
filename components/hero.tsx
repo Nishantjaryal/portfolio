@@ -9,14 +9,14 @@ const Hero = () => {
     <div className="pb-20 pt-36 w-full ">
       <div className="max-w-7xl w-full">
         <Spotlight
-          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen "
+          className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen opa"
           fill="white"
         />
         <Spotlight
-          className="top-10 left-[80vw]  h-[80vh] w-[50vw]"
+          className="top-10 left-[80vw]  h-[80vh] w-[50vw] opa"
           fill="purple"
         />
-        <Spotlight className="top-28 left-80 h-[80vh] w-[50vw] " fill="blue" />
+        <Spotlight className="top-28 left-80 h-[80vh] w-[50vw] opa" fill="blue" />
       </div>
 
       <div className="h-screen w-full bg-black-100 bg-grid-white/[0.03] flex items-center justify-center absolute top-0 left-0">

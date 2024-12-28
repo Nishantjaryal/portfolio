@@ -94,7 +94,7 @@
 
 .pop-animation{
   scale: 0;
-  animation: pop .3s ease 2s 1 forwards ;
+  animation: pop .3s ease 1s 1 forwards ;
 }
 
 @keyframes pop {
@@ -108,12 +108,12 @@
 
 .pop-animation2{
   scale: 0;
-  animation: pop .4s ease 2.4s 1 forwards ;
+  animation: pop .4s ease 1.4s 1 forwards ;
 }
 
 .opa{
   opacity: 0;
-  animation: opa1 .4s ease 2.4s 1 forwards ;
+  animation: opa1 .4s ease 1.4s 1 forwards ;
 
 }
 

@@ -25,7 +25,7 @@ const Hero = () => {
       </div>
 
       <div className="flex justify-center">
-        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center">
+        <div className="max-w-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center opa">
           <TextGenerateEffect
             className="z-10 text-blue-100 uppercase tracking-widest text-xs text-center max-w-80"
 

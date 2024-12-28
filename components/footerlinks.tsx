@@ -12,11 +12,11 @@ export function LinkPreviewDemo() {
 
           <div className=" text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-10">
           Have a project in mind? Ping me on 
-      {" "}<LinkPreview url="https://wa.me/qr/W77MEDT33RPON1" className="font-bold">
+      {" "}<LinkPreview url="https://wa.me/qr/W77MEDT33RPON1" className="font-bold text-white">
           WhatsApp
         </LinkPreview>{" "}
         or{" "}
-        <LinkPreview url="https://t.me/+917986349492" className="font-bold">
+        <LinkPreview url="https://t.me/+917986349492" className="font-bold text-white">
           TeleGram
         </LinkPreview>{" "}
         , I&apos;m just a message away! 
@@ -27,7 +27,7 @@ export function LinkPreviewDemo() {
         <LinkPreview
           url="https://www.instagram.com/_nishant.jaryal/
 "
-          className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500"
+          className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500 text-white"
         >
           Instagram
         </LinkPreview>{" "}

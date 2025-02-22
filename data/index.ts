@@ -238,13 +238,77 @@ export const navItems = [
   ];
   export const CertSheet = [
     {
-      heading: "Full Stack Chat App",
+      heading: "Harvard CS50",
       description:
-        "Developed an full stack chat App, built with webrtc and has an interactive UI",
-      link: "https://github.com/Nishantjaryal/QuickPost",
-    
+        "Learned about C, Core programming concepts, High Level Language as Python, database management and web development",
+      link: "https://drive.google.com/file/d/1-kDbDlskg31aX1homUtvT4_NOU0cAlTe/view",
     },
-    
+    {
+      heading: "BCG GenAI",
+      description:
+        "Completed a job simulation involving AI-powered financial chatbot development for BCG's GenAI Consulting team.",
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/BCG%20/gabev3vXhuACr48eb_BCG_NLGf4iLimEhKWPDCE_1722775103616_completion_certificate.pdf",
+    },
+    {
+      heading: "BCG Strategy consulting",
+      description:
+        "Completed a job simulation where I advised a hypothetical local telco company, Company X, facing a decline in profits",
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/BCG%20/ntTvo6ru6Tq3A2JPq_BCG_NLGf4iLimEhKWPDCE_1721994543738_completion_certificate.pdf",
+    },
+    {
+      heading: "Goldman Sachs Software Engineering ",
+      description:
+        "Completed a job simulation as a Goldman Sachs governance analyst responsible for assessing IT security and suggesting improvements.",
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Goldman%20Sachs/NPdeQ43o8P9HJmJzg_Goldman%20Sachs_NLGf4iLimEhKWPDCE_1719913661700_completion_certificate.pdf",
+    },
+    {
+      heading: "PwC US Management Consulting  ",
+      description:
+        "Completed a job simulation focused on business transaction diligence for a PwC management consulting team",
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/PwC%20US/douE8ih9jWMQ2P7sS_PwC%20US_NLGf4iLimEhKWPDCE_1715221849342_completion_certificate.pdf",
+    },
+    {
+      heading: "JPMorgan Chase Investment Banking",
+      description:
+        "Constructed a DCF model to calculate the valuation of the M&A target and adjusted the model to account for a competitor bid and supply chain interruption.",
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/JPMorgan%20Chase/YD2kY95RQxQtXxFTS_JPMorgan%20Chase_NLGf4iLimEhKWPDCE_1711545033613_completion_certificate.pdf",
+    },
+    {
+      heading: "Accenture Data Analytics",
+      description:
+        "Completed a simulation focused on advising a hypothetical social media client as a Data Analyst at Accenture",
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Accenture%20North%20America/hzmoNKtzvAzXsEqx8_Accenture%20North%20America_NLGf4iLimEhKWPDCE_1711287939183_completion_certificate.pdf",
+    },
+    {
+      heading: "KPMG AU Data Analytics ",
+      description:
+        "Completed a simulation focused on advising a client on customer targeting with the Data, Analytics & Modelling team",
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/KPMG%20AU/m7W4GMqeT3bh9Nb2c_KPMG%20AU_NLGf4iLimEhKWPDCE_1695057774352_completion_certificate.pdf",
+    },
+    {
+      heading: "JPMorgan Chase & Co. Cybersecurity",
+      description:
+        "Completed a simulation focused on cybersecurity, by JPMorgan Chase & Co for assessing IT security and suggesting improvements.",
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/J.P.%20Morgan/gWbW5qHAChqQBGWpA_JPMorgan%20Chase%20&%20Co._NLGf4iLimEhKWPDCE_1692625264870_completion_certificate.pdf",
+    },
+    {
+      heading: "Deloitte Australia Technology",
+      description:
+        "Completed a job simulation involving data analysis for Deloitte’s Technology team, Created a data dashboard using Tableau",
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/Deloitte%20Australia/YPWCiGNTkr6QxcpEu_Deloitte%20Australia_NLGf4iLimEhKWPDCE_1692377606039_completion_certificate.pdf",
+    },
+    {
+      heading: "PwC Switzerland Power BI ",
+      description:
+        "Completed a job simulation where I strengthened my PowerBI skills to better understand clients and their data visualisation needs.",
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/PwC%20Switzerland/a87GpgE6tiku7q3gu_PwC%20Switzerland_NLGf4iLimEhKWPDCE_1691820880131_completion_certificate.pdf",
+    },
+    {
+      heading: "Google Digital Marketing",
+      description:
+        "Completed certificate by google on Digital Marketing and how search engines works",
+      link: "https://drive.google.com/file/d/1_UcU_qMw1OtPHH3AQ3X1HWsv2LAysSQR/view?usp=drive_link",
+    },
   ];
   
   

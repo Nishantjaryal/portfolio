@@ -71,7 +71,7 @@ export function AnimatedPinDemo() {
         <Link href="/projects">
           <Morebtn />
         </Link>
-        <Link href="/certifications">
+        <Link href="/achievements">
           <Certbtn />
         </Link>
       </div>

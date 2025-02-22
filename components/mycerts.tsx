@@ -1,7 +1,6 @@
 import { CertSheet } from "@/data";
 import Link from "next/link";
 import React from "react";
-import { LinkPreview } from "./ui/link-preview";
 
 const Mycerts = () => {
   return (
@@ -11,8 +10,7 @@ const Mycerts = () => {
           key={index}
           className="p-6 bg-black rounded-lg border border-gray-200/[0.2] shadow-md min-w-[300px] max-w-[550px]"
         >
-          <LinkPreview
-            url={post.link}
+          <div
             className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500"
           >
             <h2 className="mb-2 text-2xl font-bold tracking-tight text-white ">
@@ -44,7 +42,7 @@ const Mycerts = () => {
                 </svg>
               </Link>
             </div>
-          </LinkPreview>
+          </div>
         </article>
       ))}
     </div>

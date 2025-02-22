@@ -69,163 +69,183 @@ export const navItems = [
   ];
 
   export const projectSheet = [
-      {
-        type:"link", // docs || post || link || pdf || news || media || zip
-        heading:"Zoom clone- Video Chat App",
-        description:"Developed a zoom clone with features like Video Calling, Call Recordings, Call Scheduling, Screencast, Integrated with Clerk Auth and Stream Api",
-        link:"https://github.com/Nishantjaryal/zoom-clone",
-        image:"/nj.jpg",
-        author:"Nishant Singh",
-        authorLink:"https://www.linkedin.com/in/nishant-singh-jaryal/",
-        state:"checked" // completed || testing || checked || warning
-  
-      },
-      {
-        type:"link", // docs || post || link || pdf || news || media || zip
-        heading:"Interactive Snake Game",
-        description:" Developed an interactive Snake Game with customizable appearance, food type, speed, and growth rate using HTML, CSS, and JavaScript",
-        link:"https://smart-hungary-snake.netlify.app/",
-        image:"/nj.jpg",
-        author:"Nishant Singh",
-        authorLink:"https://www.linkedin.com/in/nishant-singh-jaryal/",
-        state:"checked" // completed || testing || checked || warning
-  
-      },
-      {
-        type:"link", // docs || post || link || pdf || news || media || zip
-        heading:"Tic Tae Toe Game",
-        description:" Developed a Responsive Tic Tae Toe game with interactive design and animations ensures unbored user experience.",
-        link:"https://smart-tic-tae-toe.netlify.app/",
-        image:"/nj.jpg",
-        author:"Nishant Singh",
-        authorLink:"https://www.linkedin.com/in/nishant-singh-jaryal/",
-        state:"checked" // completed || testing || checked || warning
-  
-      },
-      {
-        type:"link", // docs || post || link || pdf || news || media || zip
-        heading:"Ai face detector",
-        description:" Integrate Machine Learning model with a web application, which can study a person’s behaviour based on provided files or camera input.",
-        link:"https://ai-face-reader.netlify.app/",
-        image:"/nj.jpg",
-        author:"Nishant Singh",
-        authorLink:"https://www.linkedin.com/in/nishant-singh-jaryal/",
-        state:"checked" // completed || testing || checked || warning
-  
-      },
-      {
-        type:"link", // docs || post || link || pdf || news || media || zip
-        heading:"BookScape - University Book Club",
-        description:" Developed College Bookclub website with Nextjs and Tailwind UI library integrated with clerk Auth Library and Shadcn components",
-        link:"https://bkscape.netlify.app/",
-        image:"/nj.jpg",
-        author:"Nishant Singh",
-        authorLink:"https://www.linkedin.com/in/nishant-singh-jaryal/",
-        state:"checked" // completed || testing || checked || warning
-  
-      },
-      {
-        type:"link", // docs || post || link || pdf || news || media || zip
-        heading:"JSON build",
-        description:"Application designed to generate JSON array, based on customised input requirements it can generate Testing data.",
-        link:"https://json-build.netlify.app/",
-        image:"/nj.jpg",
-        author:"Nishant Singh",
-        authorLink:"https://www.linkedin.com/in/nishant-singh-jaryal/",
-        state:"checked" // completed || testing || checked || warning
-  
-      },
-      {
-        type:"link", // docs || post || link || pdf || news || media || zip
-        heading:"Project Ochi ",
-        description:"Modern Themed Animated presentation website with Interactive Ui elements and responsive design.",
-        link:"https://project-ochi.netlify.app/",
-        image:"/nj.jpg",
-        author:"Nishant Singh",
-        authorLink:"https://www.linkedin.com/in/nishant-singh-jaryal/",
-        state:"checked" // completed || testing || checked || warning
-  
-      },
-      {
-        type:"link", // docs || post || link || pdf || news || media || zip
-        heading:"Mono-code",
-        description:" web based application which identifies keywords from input paragraphs, Comes with basic text editting Functionalities ",
-        link:"https://word-site.netlify.app/",
-        image:"/nj.jpg",
-        author:"Nishant Singh",
-        authorLink:"https://www.linkedin.com/in/nishant-singh-jaryal/",
-        state:"checked" // completed || testing || checked || warning
-  
-      },
-      {
-        type:"link", // docs || post || link || pdf || news || media || zip
-        heading:"MineSweeper39",
-        description:" Developed a Responsive Minesweeper game with interactive and responsive design ensures unbored user experience.",
-        link:"https://minesweeper39.netlify.app/",
-        image:"/nj.jpg",
-        author:"Nishant Singh",
-        authorLink:"https://www.linkedin.com/in/nishant-singh-jaryal/",
-        state:"checked" // completed || testing || checked || warning
-  
-      },
+    {
+      type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "Full Stack Chat App",
+      description:
+        "Developed an full stack chat App, built with webrtc and has an interactive UI",
+      link: "https://github.com/Nishantjaryal/QuickPost",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
+      type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "Zoom clone- Video Chat App",
+      description:
+        "Developed a zoom clone with features like Video Calling, Call Recordings, Call Scheduling, Screencast, Integrated with Clerk Auth and Stream Api",
+      link: "https://github.com/Nishantjaryal/zoom-clone",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
+      type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "Interactive Snake Game",
+      description:
+        " Developed an interactive Snake Game with customizable appearance, food type, speed, and growth rate using HTML, CSS, and JavaScript",
+      link: "https://smart-hungary-snake.netlify.app/",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
+      type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "Tic Tae Toe Game",
+      description:
+        " Developed a Responsive Tic Tae Toe game with interactive design and animations ensures unbored user experience.",
+      link: "https://smart-tic-tae-toe.netlify.app/",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
+      type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "Ai face detector",
+      description:
+        " Integrate Machine Learning model with a web application, which can study a person’s behaviour based on provided files or camera input.",
+      link: "https://ai-face-reader.netlify.app/",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
+      type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "BookScape - University Book Club",
+      description:
+        " Developed College Bookclub website with Nextjs and Tailwind UI library integrated with clerk Auth Library and Shadcn components",
+      link: "https://bkscape.netlify.app/",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
+      type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "JSON build",
+      description:
+        "Application designed to generate JSON array, based on customised input requirements it can generate Testing data.",
+      link: "https://json-build.netlify.app/",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
+      type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "Project Ochi ",
+      description:
+        "Modern Themed Animated presentation website with Interactive Ui elements and responsive design.",
+      link: "https://project-ochi.netlify.app/",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
+      type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "Mono-code",
+      description:
+        " web based application which identifies keywords from input paragraphs, Comes with basic text editting Functionalities ",
+      link: "https://word-site.netlify.app/",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
+      type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "MineSweeper39",
+      description:
+        " Developed a Responsive Minesweeper game with interactive and responsive design ensures unbored user experience.",
+      link: "https://minesweeper39.netlify.app/",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+
+    {
+      type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "Webworks Studio",
+      description:
+        " Developed a Modern themed web designer’s studio website with eye catching animations.",
+      link: "https://web-works-studio.netlify.app/",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
+      type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "Web-docs ",
+      description:
+        "  Developed a Modern Desktop themed web based note taking application with Nextjs and Framer Motion library.",
+      link: "https://wdocs.netlify.app/",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
+      type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "Studio designer website ",
+      description:
+        " Developed clone of a beautifully crafted studio designer’s website with interactive modern ui animations",
+      link: "https://design-my-studio.netlify.app/",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
+      type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "Bubble game ",
+      description:
+        "Developed a fun number finding game from a given number table, Comes with Simple Design but solid logic",
+      link: "https://bubble-num.netlify.app/",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
+      type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "2048 game",
+      description:
+        "Developed an interactive 2048 Game  with interactive appearance and Robust Game Engine logic",
+      link: "https://play-248.netlify.app/",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+  ];
+  export const CertSheet = [
+    {
+      heading: "Full Stack Chat App",
+      description:
+        "Developed an full stack chat App, built with webrtc and has an interactive UI",
+      link: "https://github.com/Nishantjaryal/QuickPost",
     
-      {
-        type:"link", // docs || post || link || pdf || news || media || zip
-        heading:"Webworks Studio",
-        description:" Developed a Modern themed web designer’s studio website with eye catching animations.",
-        link:"https://web-works-studio.netlify.app/",
-        image:"/nj.jpg",
-        author:"Nishant Singh",
-        authorLink:"https://www.linkedin.com/in/nishant-singh-jaryal/",
-        state:"checked" // completed || testing || checked || warning
-  
-      },
-      {
-        type:"link", // docs || post || link || pdf || news || media || zip
-        heading:"Web-docs ",
-        description:"  Developed a Modern Desktop themed web based note taking application with Nextjs and Framer Motion library.",
-        link:"https://wdocs.netlify.app/",
-        image:"/nj.jpg",
-        author:"Nishant Singh",
-        authorLink:"https://www.linkedin.com/in/nishant-singh-jaryal/",
-        state:"checked" // completed || testing || checked || warning
-  
-      },
-      {
-        type:"link", // docs || post || link || pdf || news || media || zip
-        heading:"Studio designer website ",
-        description:" Developed clone of a beautifully crafted studio designer’s website with interactive modern ui animations",
-        link:"https://design-my-studio.netlify.app/",
-        image:"/nj.jpg",
-        author:"Nishant Singh",
-        authorLink:"https://www.linkedin.com/in/nishant-singh-jaryal/",
-        state:"checked" // completed || testing || checked || warning
-  
-      },
-      {
-        type:"link", // docs || post || link || pdf || news || media || zip
-        heading:"Bubble game ",
-        description:"Developed a fun number finding game from a given number table, Comes with Simple Design but solid logic",
-        link:"https://bubble-num.netlify.app/",
-        image:"/nj.jpg",
-        author:"Nishant Singh",
-        authorLink:"https://www.linkedin.com/in/nishant-singh-jaryal/",
-        state:"checked" // completed || testing || checked || warning
-  
-      },
-      {
-        type:"link", // docs || post || link || pdf || news || media || zip
-        heading:"2048 game",
-        description:"Developed an interactive 2048 Game  with interactive appearance and Robust Game Engine logic",
-        link:"https://play-248.netlify.app/",
-        image:"/nj.jpg",
-        author:"Nishant Singh",
-        authorLink:"https://www.linkedin.com/in/nishant-singh-jaryal/",
-        state:"checked" // completed || testing || checked || warning
-  
-      },
-      
-    ]
+    },
+    
+  ];
   
   
   export const companies = [

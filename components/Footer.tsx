@@ -16,7 +16,7 @@ const Footer = () => {
       </div>
 
       <div className="flex mt-12 md:flex-row flex-col gap-4 justify-between items-center pop-animation2">
-        <p className="md:text-base text-sm md:font-normal font-light">
+        <p className="md:text-base text-sm md:font-normal text-gray-400 font-light">
           Copyright © 2025 Nishant Singh
         </p>
 

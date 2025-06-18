@@ -1,5 +1,5 @@
 import { InfiniteMovingCardsDemo } from "@/components/cards";
-import Footer from "@/components/Footer";
+// import Footer from "@/components/Footer";
 import { LinkPreviewDemo } from "@/components/footerlinks";
 import Grid from "@/components/Grid";
 import Hero from "@/components/hero";
@@ -9,8 +9,7 @@ import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { AiFillHome } from "react-icons/ai";
 import { LuAirplay } from "react-icons/lu";
 import { MdContactMail } from "react-icons/md";
-
-
+import { ToastContainer } from "react-toastify";
 
 export default function Home() {
   const navItems = [
@@ -34,26 +33,33 @@ export default function Home() {
   ];
   return (
     <main className="min-h-screen relative bg-black-100 flex flex-col items-center justify-center overflow-hidden mx-auto sm:px-10">
+      <ToastContainer
+        position="top-right"
+        autoClose={2000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick={false}
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover
+        theme="light"
+      />
       <FloatingNav navItems={navItems} />
 
       <Hero />
-      <Grid/>
-      <AnimatedPinDemo/>
+      <Grid />
+      <AnimatedPinDemo />
 
-      <div className="relative h-screen mb-10 flex flex-col items-center justify-center">
-         <WavyBackgroundDemo/>
-      <InfiniteMovingCardsDemo />
+      <div className="relative h-screen mb-5 flex flex-col items-center justify-center">
+        <WavyBackgroundDemo />
+        <InfiniteMovingCardsDemo />
       </div>
-      
-      <LinkPreviewDemo/>
 
-      <Footer/>
+      <LinkPreviewDemo />
 
-      
-
-     
-      
-
+      {/* Footer component is currently under review*/}
+      {/* <Footer/>  */}
     </main>
   );
 }

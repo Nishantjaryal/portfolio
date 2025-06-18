@@ -379,14 +379,17 @@ export const navItems = [
   export const socialMedia = [
     {
       id: 1,
-      img: "/git.svg",
       link: "https://github.com/Nishantjaryal",
     },
    
     {
       id: 2,
-      img: "/link.svg",
       link: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+
+    },
+    {
+      id: 3,
+      link: "mailto:nishantjaryal24@gmail.com",
 
     },
   ];

@@ -19,8 +19,8 @@ export function WavyBackgroundDemo() {
   // };
   return (
     <WavyBackground className="max-w-4xl w-full mx-auto pb-[15rem] h-[320px] max-sm:h-[150px]  flex items-center justify-center flex-col max-sm:gap-4 pop-animation2">
-      <p className="w-[90%] md:text-4xl lg:text-7xl relative bg-clip-text text-5xl  font-bold tracking-tight text-transparent bg-no-repeat leading-none  bg-gradient-to-r from-blue-500 via-green-500 to-violet-500  inter-var text-center">
-        Let&apos;s Build it Togeather
+      <p className="w-[90%] md:text-5xl lg:text-7xl relative bg-clip-text text-6xl  font-bold tracking-tight text-transparent bg-no-repeat leading-none  bg-gradient-to-r from-blue-700 via-pink-500 to-violet-600  inter-var text-center">
+        Recognized for my work
       </p>
       {/* <p className="  text-lg  mb-5 text-gray-200 font-normal inter-var text-center max-sm:px-5">
       Showcase skills, passion, creativity and Collaborate. Copy my Email to get in Touch
@@ -32,7 +32,6 @@ export function WavyBackgroundDemo() {
         position="left"
         handleClick={copyToClipboard}
       /> */}
-
     </WavyBackground>
   );
 }

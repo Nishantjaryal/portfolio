@@ -38,7 +38,7 @@ export function LinkPreviewDemo() {
         <span className="">Let&apos;s Build it Togeather</span>
       </div>
 
-      <div className=" text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-5 lg:mb-8">
+      <div className=" text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-6 lg:mb-8">
         Have a project in mind? Ping me on{" "}
         {/* <LinkPreview
           url="https://wa.me/qr/W77MEDT33RPON1"

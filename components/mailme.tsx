@@ -18,7 +18,7 @@ export function WavyBackgroundDemo() {
   //   Set_icon_code(<IoCheckmarkDoneCircleSharp className="w-[22px] h-[22px]"/> )
   // };
   return (
-    <WavyBackground className="max-w-4xl w-full mx-auto pb-[15rem] h-[320px] max-sm:h-[150px]  flex items-center justify-center flex-col max-sm:gap-4 pop-animation2">
+    <WavyBackground className="max-w-4xl z-[100] w-full mx-auto pb-[18rem] sm:pb-[15rem] h-[320px] max-sm:h-[150px]  flex items-center max-sm:mb-10 justify-center flex-col max-sm:gap-4 pop-animation2">
       <p className="w-[90%] md:text-5xl lg:text-7xl relative bg-clip-text text-6xl  font-bold tracking-tight text-transparent bg-no-repeat leading-none  bg-gradient-to-r from-blue-700 via-pink-500 to-violet-600  inter-var text-center">
         Recognized for my work
       </p>

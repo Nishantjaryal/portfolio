@@ -33,9 +33,9 @@ export function LinkPreviewDemo() {
     };
   }, []);
   return (
-    <div className="flex justify-center items-center min-h-[30rem] flex-col px-4 z-10 opa mb-10">
+    <div className="flex justify-center items-center min-h-[30rem] flex-col px-4 z-10 opa mb-12">
       <div className="relative bg-clip-text text-6xl h-full mb-12 font-bold tracking-tighter text-transparent bg-no-repeat leading-none  bg-gradient-to-r from-blue-500 via-green-500 to-violet-500 pt-4">
-        <span className="">Let&apos;s Build it Togeather</span>
+        <span>Let&apos;s Build it Togeather</span>
       </div>
 
       <div className=" text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-6 lg:mb-8">

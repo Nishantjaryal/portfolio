@@ -21,7 +21,7 @@ export function HeroHighlightDemo() {
         className="text-2xl px-4 box-border md:text-4xl lg:text-5xl font-bold text-white max-w-4xl leading-relaxed lg:leading-snug text-center mx-auto "
       >
          <Highlight className=" text-white">
-         Transforming visions
+         Transform visions
         </Highlight>
          into tangible results through passion, innovation, and a commitment to excellence{" "}
        

@@ -70,6 +70,40 @@ export const navItems = [
 
   export const projectSheet = [
     {
+      type: "zip", // docs || post || link || pdf || news || media || zip
+      heading: "NPM package: Codespeed",
+      description:
+        "codespeed is javascript based solution helps to calculate an accurate runtime of a portion of code to execute",
+      link: "https://www.npmjs.com/package/codespeed",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
+      type: "zip", // docs || post || link || pdf || news || media || zip
+      heading: "NPM package: Data-hash",
+      description:
+        "data-hash is very simple to use but yet very powerful package used to generate super strong hashes of given data",
+      link: "https://www.npmjs.com/package/data-hash",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
+      type: "zip", // docs || post || link || pdf || news || media || zip
+      heading: "NPM package: Hash-rocket",
+      description:
+        "Simple to use Dependency which generates super strong Hash codes, Secure and Solid Alternative To UUID",
+      link: "https://www.npmjs.com/package/hash-rocket",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+
+    {
       type: "link", // docs || post || link || pdf || news || media || zip
       heading: "Full Stack Chat App",
       description:
@@ -82,7 +116,7 @@ export const navItems = [
     },
     {
       type: "link", // docs || post || link || pdf || news || media || zip
-      heading: "Zoom clone- Video Chat App",
+      heading: "Zoom clone: Video Chat App",
       description:
         "Developed a zoom clone with features like Video Calling, Call Recordings, Call Scheduling, Screencast, Integrated with Clerk Auth and Stream Api",
       link: "https://github.com/Nishantjaryal/zoom-clone",
@@ -196,7 +230,7 @@ export const navItems = [
       heading: "Web-docs ",
       description:
         "  Developed a Modern Desktop themed web based note taking application with Nextjs and Framer Motion library.",
-      link: "https://wdocs.netlify.app/",
+      link: "https://floating-ideas.netlify.app/",
       image: "/nj.jpg",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
@@ -237,6 +271,30 @@ export const navItems = [
     },
   ];
   export const CertSheet = [
+    {
+      heading: "Cisco: Introduction to Cybersecurity",
+      description:
+        "Cisco verifies the earner of this badge successfully completed the Introduction to Cybersecurity course",
+      link: "http://credly.com/badges/bee7634b-143b-48a8-b513-54c949127cb7",
+    },
+    {
+      heading: "Solutions Architecture Job Simulation",
+      description:
+        "Designed a scalable hosting architecture based on Elastic Beanstalk for a client experiencing significant slow response times",
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/pmnMSL4QiQ9JCgE3W/kkE9HyeNcw6rwCRGw_pmnMSL4QiQ9JCgE3W_NLGf4iLimEhKWPDCE_1751637153752_completion_certificate.pdf",
+    },
+    {
+      heading: "Technology Software Development ",
+      description:
+        "Completed a job simulation involving hypothetical tasks to improve Citi's loan management system ",
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/8eNRcRqBZM9HLvwGw/2jxESPvorR7fmypXj_8eNRcRqBZM9HLvwGw_NLGf4iLimEhKWPDCE_1751539763549_completion_certificate.pdf",
+    },
+    {
+      heading: "Software Engineering",
+      description:
+        "Integrated new feature for the EA Sports College Football and wrote a Feature Proposal describing it to other stakeholders",
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/j43dGscQHtJJ57N54/a77WE3de8qrxWferQ_j43dGscQHtJJ57N54_NLGf4iLimEhKWPDCE_1751445282172_completion_certificate.pdf",
+    },
     {
       heading: "Harvard CS50",
       description:

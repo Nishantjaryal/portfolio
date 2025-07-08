@@ -25,7 +25,7 @@ export default function Home() {
     },
     {
       name: "Resume",
-      link: "https://drive.google.com/file/d/11GDM2LjmhqFlz8fnRtVVgL-UmvKQepjh/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1IYR_auDQVsSVXY8duNPpMZfZfkDhr_5i/view?usp=sharing",
       icon: (
         <MdContactMail className="h-4 w-4 text-neutral-500 dark:text-white" />
       ),

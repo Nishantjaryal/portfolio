@@ -185,7 +185,7 @@ export const navItems = [
       heading: "Project Ochi ",
       description:
         "Modern Themed Animated presentation website with Interactive Ui elements and responsive design.",
-      link: "https://project-ochi.netlify.app/",
+      link: "https://ochi-craft.netlify.app/",
       image: "/nj.jpg",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
@@ -263,7 +263,7 @@ export const navItems = [
       heading: "2048 game",
       description:
         "Developed an interactive 2048 Game  with interactive appearance and Robust Game Engine logic",
-      link: "https://play-248.netlify.app/",
+      link: "https://play-2o48.netlify.app/",
       image: "/nj.jpg",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",

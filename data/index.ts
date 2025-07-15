@@ -174,7 +174,7 @@ export const navItems = [
       heading: "JSON build",
       description:
         "Application designed to generate JSON array, based on customised input requirements it can generate Testing data.",
-      link: "https://json-build.netlify.app/",
+      link: "https://build-json.netlify.app/",
       image: "/nj.jpg",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",

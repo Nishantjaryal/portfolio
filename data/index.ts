@@ -70,6 +70,17 @@ export const navItems = [
 
   export const projectSheet = [
     {
+      type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "Flappy bird Game",
+      description:
+        "Flappy Bird is a classic arcade-style game where the player controls a bird trying to fly between sets of pipes without hitting them.",
+      link: "https://lets-fly-bird.netlify.app/",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
       type: "zip", // docs || post || link || pdf || news || media || zip
       heading: "NPM package: Codespeed",
       description:
@@ -107,7 +118,7 @@ export const navItems = [
       type: "link", // docs || post || link || pdf || news || media || zip
       heading: "Full Stack Chat App",
       description:
-        "Developed an full stack chat App, built with webrtc and has an interactive UI",
+        "Developed an full stack chat App, built with webrtc and has an interactive UI, Users information is protected with Encryption",
       link: "https://github.com/Nishantjaryal/QuickPost",
       image: "/nj.jpg",
       author: "Nishant Singh",

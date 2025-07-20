@@ -4,7 +4,6 @@
 
 A sleek and modern personal portfolio website built with **Next.js**, styled using **Tailwind CSS**, and enhanced with **Aceternity UI** and **shadcn/ui** components.
 
----
 
 ## 🚀 Tech Stack
 
@@ -14,7 +13,6 @@ A sleek and modern personal portfolio website built with **Next.js**, styled usi
   - [Aceternity UI](https://ui.aceternity.com/)
   - [shadcn/ui](https://ui.shadcn.com/)
 
----
 
 ## ✨ Features
 
@@ -27,4 +25,3 @@ A sleek and modern personal portfolio website built with **Next.js**, styled usi
 - 🧾 Project and contact sections
 - 📂 Organized and scalable codebase
 
----

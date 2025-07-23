@@ -81,6 +81,28 @@ export const navItems = [
       state: "checked", // completed || testing || checked || warning
     },
     {
+      type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "Bubble game ",
+      description:
+        "Developed a fun number finding game from a given number table, Comes with Simple Design but solid logic",
+      link: "https://bubble-num.netlify.app/",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
+      type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "Ping Pong",
+      description:
+        "Super Ping Pong Game: A fast-paced, browser-based ping pong game, Test your reflexes in this classic arcade-style challenge",
+      link: "https://super-ping-pong.netlify.app/",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
       type: "zip", // docs || post || link || pdf || news || media || zip
       heading: "NPM package: Codespeed",
       description:
@@ -102,12 +124,24 @@ export const navItems = [
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
     },
+
     {
       type: "zip", // docs || post || link || pdf || news || media || zip
       heading: "NPM package: Hash-rocket",
       description:
         "Simple to use Dependency which generates super strong Hash codes, Secure and Solid Alternative To UUID",
       link: "https://www.npmjs.com/package/hash-rocket",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
+      type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "2048 game",
+      description:
+        "Developed an interactive 2048 Game  with interactive appearance and Robust Game Engine logic",
+      link: "https://play-2o48.netlify.app/",
       image: "/nj.jpg",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
@@ -258,28 +292,8 @@ export const navItems = [
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
     },
-    {
-      type: "link", // docs || post || link || pdf || news || media || zip
-      heading: "Bubble game ",
-      description:
-        "Developed a fun number finding game from a given number table, Comes with Simple Design but solid logic",
-      link: "https://bubble-num.netlify.app/",
-      image: "/nj.jpg",
-      author: "Nishant Singh",
-      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
-      state: "checked", // completed || testing || checked || warning
-    },
-    {
-      type: "link", // docs || post || link || pdf || news || media || zip
-      heading: "2048 game",
-      description:
-        "Developed an interactive 2048 Game  with interactive appearance and Robust Game Engine logic",
-      link: "https://play-2o48.netlify.app/",
-      image: "/nj.jpg",
-      author: "Nishant Singh",
-      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
-      state: "checked", // completed || testing || checked || warning
-    },
+    
+    
   ];
   export const CertSheet = [
     {

@@ -15,7 +15,8 @@ import { ThemeProvider } from "./provider";
 
 export const metadata: Metadata = {
   title: "Nishant's portfolio",
-  description: "Welcome to Nishant's portfolio",
+  description:
+    "Nishant Singh | Full Stack Developer & Data Analyst | Proficient in Modern Web Technologies & Data Analytics & Visualization Tools",
 };
 
 export default function RootLayout({
@@ -26,7 +27,7 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
          <head>
-			<link rel='icon' href='/nj.jpg' />
+			<link rel='icon' href='/nj.webp' />
 		</head>
         <body>
           <ThemeProvider

@@ -19,15 +19,15 @@ const Mycerts = () => {
             <p className="mb-5 text-[14px] md:text-[16px] font-light text-gray-100 ">
               {post.description}
             </p>
-            <div className="flex justify-between items-center">
+            <div className="flex justify-between   items-center">
               
 
               <Link
                 target="_blank"
                 href={post.link}
-                className="inline-flex items-center font-medium text-primary hover:text-secondary max-sm:hidden"
+                className="inline-flex items-center font-medium text-primary hover:text-secondary "
               >
-                Take a look
+                Certificate View
                 <svg
                   className="ml-2 w-4 h-4"
                   fill="currentColor"

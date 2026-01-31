@@ -71,6 +71,28 @@ export const navItems = [
   export const projectSheet = [
     {
       type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "AI: Google's Notebook LLM clone",
+      description:
+        "PDF-based question-answering system built using the Retrieval-Augmented Generation (RAG).  Upload PDF documents and ask querries",
+      link: "https://github.com/Nishantjaryal/NoteBook-AI",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
+      type: "link", // docs || post || link || pdf || news || media || zip
+      heading: "Algorithm : Data-Hash Research Paper",
+      description:
+        "Data security and integrity are crucial in modern day computing, which requires efficient algorithmsto safeguard information.",
+      link: "https://www.researchgate.net/publication/400280869_Data-Hash_A_Comparative_Analysis_of_Algorithms_and_Applications",
+      image: "/nj.jpg",
+      author: "Nishant Singh",
+      authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+      state: "checked", // completed || testing || checked || warning
+    },
+    {
+      type: "link", // docs || post || link || pdf || news || media || zip
       heading: "Flappy bird Game",
       description:
         "Flappy Bird is a classic arcade-style game where the player controls a bird trying to fly between sets of pipes without hitting them.",
@@ -212,7 +234,7 @@ export const navItems = [
       image: "/nj.jpg",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
-      state: "checked", // completed || testing || checked || warning
+      state: "warning", // completed || testing || checked || warning
     },
     {
       type: "link", // docs || post || link || pdf || news || media || zip
@@ -296,6 +318,36 @@ export const navItems = [
     
   ];
   export const CertSheet = [
+    {
+      heading: "OCI 2025 Certified Generative AI Professional",
+      description:
+        "The Oracle Cloud Infrastructure 2025 Generative AI Professional certification is designed for Software Developers",
+      link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=157F7320D8867731BE910DB4E3136E84214F21402B67F6ECFC73BBDA15CCE094",
+    },
+    {
+      heading: "Oracle AI Vector search Certified Professional",
+      description:
+        "The Oracle Cloud Infrastructure 2025 AI Vector search Professional certification is designed for Software Developers",
+      link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=7922FA4DBC6D99311D4DE40DAA1D1783CF89726D0881E1A6BA39B4CD0E120526",
+    },
+    {
+      heading: "OCI 2025 Certified AI Foundations Associate",
+      description:
+        "The Oracle Cloud Infrastructure 2025 Certified AI Foundations Associate is designed for Software Developers",
+      link: "https://catalog-education.oracle.com/ords/certview/sharebadge?id=25F15806A1518C0DA4B658E6451A33B163D87134BD0D77EF8820FF9E9A147E4C",
+    },
+    {
+      heading: "ChatGPT Prompt Engineering for Developers",
+      description:
+        "Deeplearning.Ai verifies the earner of this badge successfully completed the Prompt Engineering for Developers",
+      link: "https://learn.deeplearning.ai/accomplishments/c8a834d7-5479-48fe-84d9-2d3a677498d9",
+    },
+    {
+      heading: "AWS: Solution Architect",
+      description:
+        "Deeplearning.Ai verifies the earner of this badge successfully completed the Prompt Engineering for Developers",
+      link: "https://forage-uploads-prod.s3.amazonaws.com/completion-certificates/pmnMSL4QiQ9JCgE3W/kkE9HyeNcw6rwCRGw_pmnMSL4QiQ9JCgE3W_NLGf4iLimEhKWPDCE_1751637153752_completion_certificate.pdf",
+    },
     {
       heading: "Cisco: Introduction to Cybersecurity",
       description:

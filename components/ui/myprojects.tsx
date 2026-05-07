@@ -11,8 +11,8 @@ const Myprojects = () => {
               key={index}
               className="p-6 bg-black rounded-lg border border-gray-200/[0.2] shadow-md min-w-[300px] max-w-[550px]"
             >
-                 <LinkPreview
-              url={post.link}
+                 <div
+              // url={post.link}
               className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500"
             >
                 <div className="flex justify-between items-center mb-5 text-white">
@@ -103,7 +103,7 @@ const Myprojects = () => {
                 )}
               </div>
               <h2 className="mb-2 text-2xl font-bold tracking-tight text-white ">
-                <a href="#">{post.heading}</a>
+                {post.heading}
               </h2>
               <p className="mb-5 text-[14px] md:text-[16px] font-light text-gray-100 ">
                 {post.description}
@@ -141,7 +141,7 @@ const Myprojects = () => {
                   </svg>
                 </Link>
               </div>
-            </LinkPreview>
+            </div>
               
             </article>
           ))}

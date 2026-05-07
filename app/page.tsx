@@ -47,8 +47,7 @@ export default function Home() {
       />
       <FloatingNav navItems={navItems} />
 
-      <Hero />
-      <Grid />
+      
       <AnimatedPinDemo />
 
       <div className="relative h-screen mb-5 flex flex-col items-center justify-center">

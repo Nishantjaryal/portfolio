@@ -10,7 +10,7 @@ const WavyBackground = ({
   containerClassName,
   colors = ["#38bdf8", "#818cf8", "#c084fc", "#e879f9", "#22d3ee"],
   waveWidth = 50,
-  backgroundFill = "#000319",
+  backgroundFill = "hsl(0 0% 100%)",
   blur = 10,
   speed = "fast",
   waveOpacity = 0.5,

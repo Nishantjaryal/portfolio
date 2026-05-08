@@ -36,15 +36,15 @@ const config = {
   			checked: '#22FF00',
   			testing: '#FF9100',
         black: {
-          DEFAULT: "#000",
-          100: "#000319",
-          200: "rgba(17, 25, 40, 0.75)",
-          300: "rgba(255, 255, 255, 0.125)",
+          DEFAULT: "hsl(var(--background))",
+          100: "hsl(var(--card))",
+          200: "hsl(var(--muted))",
+          300: "hsl(var(--border))",
         },
         white: {
-          DEFAULT: "#FFF",
-          100: "#BEC1DD",
-          200: "#C1C2D3",
+          DEFAULT: "hsl(var(--foreground))",
+          100: "hsl(var(--muted-foreground))",
+          200: "hsl(var(--secondary-foreground))",
         },
         blue: {
           "100": "#E4ECFF",

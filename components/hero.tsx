@@ -10,7 +10,7 @@ const Hero = () => {
       <div className="max-w-7xl w-full">
         <Spotlight
           className="-top-40 -left-10 md:-left-32 md:-top-20 h-screen opa"
-          fill="white"
+          fill="black"
         />
         <Spotlight
           className="top-10 left-[80vw]  h-[80vh] w-[50vw] opa"

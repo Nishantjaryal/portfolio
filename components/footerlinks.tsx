@@ -42,15 +42,15 @@ export function LinkPreviewDemo() {
         Have a project in mind? Ping me on{" "}
         {/* <LinkPreview
           url="https://wa.me/qr/W77MEDT33RPON1"
-          className="font-bold text-white"
+          className="font-bold text-neutral-700"
         >
           WhatsApp
         </LinkPreview>{" "} */}
-        <Link href={socialMedia[1].link} className="font-bold text-white">
+        <Link href={socialMedia[1].link} className="font-bold text-neutral-700">
           Linkedin
         </Link>{" "}
         or{" "}
-        <p id="show_popup" className="font-bold inline text-white">
+        <p id="show_popup" className="font-bold inline text-neutral-700">
           Mail Me
         </p>{" "}
         I&apos;m just a message away!
@@ -60,7 +60,7 @@ export function LinkPreviewDemo() {
         explore me on{" "}
         <Link
           href={socialMedia[0].link}
-          className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500 text-white"
+          className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500 text-neutral-700"
         >
           Github
         </Link>{" "}

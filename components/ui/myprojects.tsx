@@ -12,8 +12,7 @@ const Myprojects = () => {
               className="p-6 bg-black rounded-lg border border-gray-200/[0.2] shadow-md min-w-[300px] max-w-[550px]"
             >
                  <div
-              // url={post.link}
-              className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500"
+              className="font-bold bg-clip-text text-black bg-gradient-to-br from-purple-500 to-pink-500"
             >
                 <div className="flex justify-between items-center mb-5 text-white">
                 <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded  ">

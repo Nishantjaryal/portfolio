@@ -13,7 +13,7 @@ export function AnimatedPinDemo() {
     <BackgroundBeamsWithCollision>
       <h2
         className="relative text-center text-[35px] 
-            md:text-4xl lg:text-6xl tracking-tight leading-none font-bold text-white "
+            md:text-4xl lg:text-6xl tracking-tight leading-none font-bold text-neutral-700 "
       >
         Exploring Modern Tech
         <div

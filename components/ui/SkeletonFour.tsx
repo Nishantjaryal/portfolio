@@ -33,7 +33,7 @@ const  SkeletonFour = () => {
           ))
         }
 
-        <h2 className='text-white absolute text-[25px] max-sm:left-4 font-bold font-mono'>
+        <h2 className='text-neutral-700 absolute text-[25px] max-sm:left-4 font-bold font-mono'>
             Focus, Constant Improvement
         </h2>
 

@@ -65,7 +65,7 @@ export const FloatingNav = ({
             key={`link=${idx}`}
             href={navItem.link}
             className={cn(
-              "relative text-neutral-50 items-center flex space-x-1 hover:text-neutral-300 "
+              "relative text-neutral-800 items-center flex space-x-1 hover:text-neutral-500 "
             )}
           >
             <span className="block sm:hidden">{navItem.icon}</span>
@@ -73,7 +73,7 @@ export const FloatingNav = ({
           </Link>
         ))}
         <a href="https://www.linkedin.com/in/nishant-singh-jaryal/" target="_blank">
-        <button className="border text-sm font-medium relative border-white/[0.2] text-white px-4 py-2 rounded-full hover:scale-[1.03] transition-all">
+        <button className="border text-sm font-medium relative border-white/[0.2] text-neutral-700 px-4 py-2 rounded-full hover:scale-[1.03] transition-all">
           <span>Connect</span>
           <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
         </button>

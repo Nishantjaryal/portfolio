@@ -7,7 +7,7 @@ const page = () => {
   return (
     <div className="w-full h-full bg-black-100 py-8 px-4 pb-40 box-border md:pt-8 ">
       <Link
-        className="px-4 py-2 pb-2.5 bg-black border shadow-md border-white-100/[0.2] text-center text-gray-100 rounded-full"
+        className="px-4 py-2 pb-2.5 bg-card border shadow-md border-border text-center text-foreground rounded-full"
         href="/"
       >
         <svg
@@ -16,7 +16,7 @@ const page = () => {
           height="24px"
           viewBox="0 -960 960 960"
           width="24px"
-          fill="#FFFFFF"
+          fill="#000000"
         >
           <path d="M360-240 120-480l240-240 56 56-144 144h568v80H272l144 144-56 56Z" />
         </svg>{" "}

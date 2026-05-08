@@ -13,7 +13,7 @@ const Mycerts = () => {
           <div
             className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500"
           >
-            <h2 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+            <h2 className="mb-2 text-2xl font-bold tracking-tight text-neutral-700 ">
               <a href="#">{post.heading}</a>
             </h2>
             <p className="mb-5 text-[14px] md:text-[16px] font-light text-gray-100 ">

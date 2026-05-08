@@ -16,18 +16,18 @@ export default function Home() {
     {
       name: "Home",
       link: "/",
-      icon: <AiFillHome className="h-4 w-4 text-neutral-500 dark:text-white" />,
+      icon: <AiFillHome className="h-4 w-4 text-muted-foreground" />,
     },
     {
       name: "Solve",
       link: "https://leetcode.com/u/nishantjaryal/",
-      icon: <LuAirplay className="h-4 w-4 text-neutral-500 dark:text-white" />,
+      icon: <LuAirplay className="h-4 w-4 text-muted-foreground" />,
     },
     {
       name: "Resume",
       link: "https://drive.google.com/file/d/1IYR_auDQVsSVXY8duNPpMZfZfkDhr_5i/view?usp=sharing",
       icon: (
-        <MdContactMail className="h-4 w-4 text-neutral-500 dark:text-white" />
+        <MdContactMail className="h-4 w-4 text-muted-foreground" />
       ),
     },
   ];

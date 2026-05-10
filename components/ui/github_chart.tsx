@@ -5,9 +5,9 @@ const GithubChart = () => {
   return (
     <div className="w-full hidden lg:flex items-center justify-center transition-all mb-10">
       <img
-        src="https://ghchart.rshah.org/2095ff/Nishantjaryal"
+        src="https://ghchart.rshah.org/Nishantjaryal"
         alt=""
-        className="w-[65%] transition-all min-w-[320px] h-auto invert hue-rotate-90 saturate-75 contrast-100"
+        className="w-[65%] transition-all min-w-[320px] h-auto  saturate-75 contrast-100"
         fetchPriority="high"
       />
     </div>

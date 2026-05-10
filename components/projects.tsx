@@ -32,14 +32,14 @@ export function AnimatedPinDemo() {
           >
             <PinContainer title={`🔗 ${project.title}`} href={project.link}>
               <div className="flex basis-full flex-col p-2 h-[22rem] tracking-tight text-slate-100/50 sm:basis-1/2 w-[20rem] ">
-                <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-slate-100">
+                <h3 className="max-w-xs !pb-2 !m-0 font-bold  text-base text-neutral-800">
                   {project.title}
                 </h3>
                 <div className="text-base !m-0 !p-0 font-normal">
-                  <span className="text-slate-500 ">{project.des}</span>
+                  <span className="text-slate-600 ">{project.des}</span>
                 </div>
 
-                <div className="flex relative z-10 mt-3 ">
+                <div className="flex relative gap-1 z-10 mt-3 ">
                   {project.iconLists.map((img, idx) => (
                     <Image
                       key={idx}
@@ -47,7 +47,7 @@ export function AnimatedPinDemo() {
                       width={50}
                       height={50}
                       alt="Technology"
-                      className="rounded-full  bg-black-200 w-10 h-10 p-1 object-contain"
+                      className="rounded-full  bg-gradient-to-r from-violet-500 to-gray-100 w-10 h-10 p-1 object-contain"
                     />
                   ))}
                 </div>

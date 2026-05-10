@@ -14,7 +14,7 @@ const Myprojects = () => {
                  <div
               className="font-bold bg-clip-text text-black bg-gradient-to-br from-purple-500 to-pink-500"
             >
-                <div className="flex justify-between items-center mb-5 text-white">
+                <div className="flex justify-between items-center mb-5 text-neutral-700">
                 <span className="bg-primary-100 text-primary-800 text-xs font-medium inline-flex items-center px-2.5 py-0.5 rounded  ">
                   {post.type === "pdf" && (
                     <svg xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#4b47cc"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm80-160h280v-80H280v80Zm0-160h400v-80H280v80Zm0-160h400v-80H280v80Z"/></svg>
@@ -101,7 +101,7 @@ const Myprojects = () => {
                   <span className="w-3.5 h-2.5 bg-warning rounded-full cursor-pointer"></span>
                 )}
               </div>
-              <h2 className="mb-2 text-2xl font-bold tracking-tight text-white ">
+              <h2 className="mb-2 text-2xl font-bold tracking-tight text-neutral-700 ">
                 {post.heading}
               </h2>
               <p className="mb-5 text-[14px] md:text-[16px] font-light text-gray-100 ">

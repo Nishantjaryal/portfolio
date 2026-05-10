@@ -43,7 +43,7 @@ const Hero = () => {
           />
 
           <TextGenerateEffect
-            className="z-10 text-white text-center md:tracking-wider mb-4 text-sm md:text-lg mt-4 lg:text-2xl"
+            className="z-10 text-neutral-700 text-center md:tracking-wider mb-4 text-sm md:text-lg mt-4 lg:text-2xl"
 
 
             duration={2} filter={false}

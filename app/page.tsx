@@ -1,4 +1,5 @@
 import { InfiniteMovingCardsDemo } from "@/components/cards";
+import FaceCard from "@/components/FaceCard";
 // import Footer from "@/components/Footer";
 import { LinkPreviewDemo } from "@/components/footerlinks";
 import Grid from "@/components/Grid";
@@ -46,6 +47,9 @@ export default function Home() {
         theme="light"
       />
       <FloatingNav navItems={navItems} />
+
+
+      <FaceCard />
 
       
       <AnimatedPinDemo />

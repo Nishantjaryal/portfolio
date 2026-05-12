@@ -20,7 +20,7 @@ export function AnimatedPinDemo() {
           className=" text-center text-[35px] 
             md:text-4xl lg:text-6xl tracking-tight leading-none relative bg-clip-text text-transparent bg-no-repeat font-bold  bg-gradient-to-r from-yellow-500 via-violet-500 to-pink-500 py-4"
         >
-          <span className="">To Create Solutions</span>
+          <span className="">Nishant Singh</span>
         </div>
       </h2>
 

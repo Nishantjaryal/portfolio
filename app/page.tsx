@@ -5,6 +5,7 @@ import { LinkPreviewDemo } from "@/components/footerlinks";
 import Grid from "@/components/Grid";
 import Hero from "@/components/hero";
 import { WavyBackgroundDemo } from "@/components/mailme";
+import ProjectList from "@/components/ProjectList";
 import { AnimatedPinDemo } from "@/components/projects";
 import { FloatingNav } from "@/components/ui/FloatingNavbar";
 import { AiFillHome } from "react-icons/ai";
@@ -50,6 +51,7 @@ export default function Home() {
 
 
       <FaceCard />
+      <ProjectList />
 
       
       <AnimatedPinDemo />

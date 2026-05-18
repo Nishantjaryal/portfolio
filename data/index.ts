@@ -528,3 +528,19 @@ export const navItems = [
 
     },
   ];
+
+export const Latest_project_List = [
+  {
+    id: 1,
+    title: "ResumeStack",
+    location: "AI-Powered Resume Builder",
+    link: "https://resumestack.vercel.app/",
+  },
+  {
+    id: 2,
+    title: "PlayGround AI",
+    location: "Scientific cloud AI testing models",
+    link: "https://play-models.netlify.app/",
+  },
+  
+];

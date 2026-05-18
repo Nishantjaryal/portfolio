@@ -1,5 +1,6 @@
 import { InfiniteMovingCardsDemo } from "@/components/cards";
 import FaceCard from "@/components/FaceCard";
+import Footer from "@/components/Footer";
 // import Footer from "@/components/Footer";
 import { LinkPreviewDemo } from "@/components/footerlinks";
 import Grid from "@/components/Grid";
@@ -14,25 +15,7 @@ import { MdContactMail } from "react-icons/md";
 import { ToastContainer } from "react-toastify";
 
 export default function Home() {
-  const navItems = [
-    {
-      name: "Home",
-      link: "/",
-      icon: <AiFillHome className="h-4 w-4 text-muted-foreground" />,
-    },
-    {
-      name: "Solve",
-      link: "https://leetcode.com/u/nishantjaryal/",
-      icon: <LuAirplay className="h-4 w-4 text-muted-foreground" />,
-    },
-    {
-      name: "Resume",
-      link: "https://drive.google.com/file/d/1IYR_auDQVsSVXY8duNPpMZfZfkDhr_5i/view?usp=sharing",
-      icon: (
-        <MdContactMail className="h-4 w-4 text-muted-foreground" />
-      ),
-    },
-  ];
+
   return (
     <main className="min-h-screen relative bg-black-100 flex flex-col items-center justify-center overflow-hidden mx-auto sm:px-10">
       <ToastContainer
@@ -47,24 +30,24 @@ export default function Home() {
         pauseOnHover
         theme="light"
       />
-      <FloatingNav navItems={navItems} />
+      
 
 
       <FaceCard />
       <ProjectList />
 
       
-      <AnimatedPinDemo />
+      {/* <AnimatedPinDemo /> */}
 
-      <div className="relative h-screen mb-5 flex flex-col items-center justify-center">
+      {/* <div className="relative h-screen mb-5 flex flex-col items-center justify-center">
         <WavyBackgroundDemo />
         <InfiniteMovingCardsDemo />
-      </div>
+      </div> */}
 
       <LinkPreviewDemo />
 
       {/* Footer component is currently under review*/}
-      {/* <Footer/>  */}
+      <Footer/> 
     </main>
   );
 }

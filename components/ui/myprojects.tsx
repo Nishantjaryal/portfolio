@@ -1,7 +1,6 @@
 import { projectSheet } from '@/data'
 import Link from 'next/link'
 import React from 'react'
-import { LinkPreview } from './link-preview'
 
 const Myprojects = () => {
   return (

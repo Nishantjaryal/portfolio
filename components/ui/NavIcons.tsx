@@ -9,7 +9,7 @@ const NavIcons = () => {
     const navItems = [
     {
       name: "Home",
-      link: "/",
+      link: "/projects",
       icon: <AiFillHome className="h-4 w-4 text-muted-foreground" />,
     },
     {
@@ -31,7 +31,7 @@ const NavIcons = () => {
     <div
      
         className={cn(
-          "flex max-w-fit border border-white/[0.2] rounded-full bg-black-100 px-2 py-1 pl-4 items-center justify-center space-x-4 mb-6",
+          "flex max-w-fit border border-white/[0.2] rounded-full bg-black-100 px-1 py-1 pl-4 items-center justify-center space-x-4 mb-6",
         )}
       >
         {navItems.map((navItem: { name: string; link: string; icon?: React.ReactNode; }, idx: number) => (
@@ -48,7 +48,7 @@ const NavIcons = () => {
           </Link>
         ))}
         <a href="https://www.linkedin.com/in/nishant-singh-jaryal/" target="_blank">
-        <button className="border text-sm font-medium relative border-white/[0.2] text-neutral-700 px-4 py-2 rounded-full hover:scale-[1.03] transition-all">
+        <button className="border text-sm font-medium relative border-white/[0.2] text-neutral-700 px-3 py-1 pb-1.5 rounded-full hover:scale-[1.03] transition-all">
           <span>Connect</span>
           <span className="absolute inset-x-0 w-1/2 mx-auto -bottom-px bg-gradient-to-r from-transparent via-blue-500 to-transparent  h-px" />
         </button>

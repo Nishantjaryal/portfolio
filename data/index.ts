@@ -510,6 +510,36 @@ export const navItems = [
       thumbnail: "/exp4.svg",
     },
   ];
+
+  export const experienceList = [
+    {
+      id: 1,
+      company: "Alesa Ai Ltd",
+      role: "Prompt Engineer Intern",
+      employmentType: "Internship",
+      dateRange: "Sep 2025 - May 2026",
+      duration: "9 mos",
+      location: "Remote",
+      description:
+        "Design and develop software solutions by integrating AI into workflows.",
+      skills: ["Full-Stack Development"],
+      logoText: "AA",
+      logo: "/AlesaAI.png"
+    },
+    {
+      id: 2,
+      company: "CYCREW",
+      role: "Cyber Security Engineer",
+      employmentType: "Internship",
+      dateRange: "Aug 2025 - Dec 2025",
+      duration: "5 mos",
+      location: "Remote",
+      description:
+        "Designed and developed AI-powered cyber security solutions to rapidly mitigate modern threats, ensuring 100% system security.",
+      skills: ["Open-Source Software", "Cybersecurity", "AI"],
+      logoText: "CY",
+    },
+  ];
   
   export const socialMedia = [
     {
@@ -542,5 +572,13 @@ export const Latest_project_List = [
     location: "Scientific cloud AI testing models",
     link: "https://play-models.netlify.app/",
   },
+  
+  {
+    id: 3,
+    title: "PDF RAG AI",
+    location: "Working Notebook LLM clone",
+    link: "https://play-models.netlify.app/",
+  },
+  
   
 ];

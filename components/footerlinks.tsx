@@ -12,15 +12,14 @@ export function LinkPreviewDemo() {
       const textToCopy = "nisnantjaryal24@gmail.com";
       if (textToCopy) {
         await navigator.clipboard.writeText(textToCopy);
-        toast.success("Success: Email copied", {
-          position: "top-right",
-          autoClose: 5000,
-          hideProgressBar: false,
-          closeOnClick: false,
+        toast.success("Email copied Successfully", {
+          position: "bottom-right",
+          autoClose: 2000,
+          hideProgressBar: true,
+          closeOnClick: true,
           pauseOnHover: true,
           draggable: true,
           progress: undefined,
-          theme: "dark",
         });
       }
     };
@@ -33,12 +32,12 @@ export function LinkPreviewDemo() {
     };
   }, []);
   return (
-    <div className="flex justify-center items-center min-h-[30rem] flex-col px-4 z-10 opa mb-12">
+    <div className="flex justify-center  min-h-[30rem] flex-col px-4 z-10 opa mb-12">
       <div className="relative bg-clip-text text-6xl h-full mb-12 font-bold tracking-tighter text-transparent bg-no-repeat leading-none  bg-gradient-to-r from-blue-500 via-green-500 to-violet-500 pt-4">
         <span>Let&apos;s Create the Future</span>
       </div>
 
-      <div className=" text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-6 lg:mb-8">
+      <div className=" text-neutral-400 text-xl md:text-3xl max-w-3xl  mb-6 lg:mb-8">
         Have a project in mind? Ping me on{" "}
         {/* <LinkPreview
           url="https://wa.me/qr/W77MEDT33RPON1"
@@ -46,16 +45,13 @@ export function LinkPreviewDemo() {
         >
           WhatsApp
         </LinkPreview>{" "} */}
-        <Link href={socialMedia[1].link} className="font-bold text-neutral-700">
+        <Link href={socialMedia[1].link} className="font-bold text-neutral-700 ">
           Linkedin
         </Link>{" "}
-        or{" "}
-        <p id="show_popup" className="font-bold inline text-neutral-700">
-          Mail Me
-        </p>{" "}
+        
         I&apos;m just a message away!
       </div>
-      <div className="text-neutral-500 dark:text-neutral-400 text-xl md:text-3xl max-w-3xl mx-auto mb-10">
+      <div className="text-neutral-400  text-xl md:text-3xl max-w-3xl mb-10">
         Because every great project starts with a great Collab. Let&apos;s
         explore me on{" "}
         <Link

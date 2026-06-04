@@ -44,10 +44,13 @@ export default function Home() {
         <InfiniteMovingCardsDemo />
       </div> */}
 
+      <div className="w-[90%]">
       <LinkPreviewDemo />
 
+      </div>
+
+
       {/* Footer component is currently under review*/}
-      <Footer/> 
     </main>
   );
 }

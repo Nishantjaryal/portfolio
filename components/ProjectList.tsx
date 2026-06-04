@@ -1,7 +1,11 @@
+"use client";
+
 import { experienceList, Latest_project_List } from "@/data";
 import Image from "next/image";
+import { useState } from "react";
 
 const ProjectList = () => {
+  const [link, setLink] = useState(Latest_project_List[0]?.link ?? "");
   return (
     <div
       data-component="Container"
@@ -12,21 +16,24 @@ const ProjectList = () => {
           <div className="font-mono text-xs/7 font-medium uppercase tracking-widest text-[var(--color-text-secondary)]">
             experience
           </div>
-         
         </div>
         <div
           data-component="Text"
           className="text-[var(--color-text-secondary)] text-pretty"
         >
-          From AI-powered applications to scalable web platforms, I'm on a mission to build technology that makes a difference.
+          From AI-powered applications to scalable web platforms, I'm on a
+          mission to build technology that makes a difference.
         </div>
       </div>
-      <div>
-        
-        <div>
+      <div className="flex">
+        <div className="w-1/2 pr-4">
           <ul className="space-y-0 divide-y divide-[var(--color-border)]">
             {Latest_project_List.map((project) => (
-              <li key={project.id}>
+              <li
+                key={project.id}
+                onMouseEnter={() => setLink(project.link)}
+                onFocus={() => setLink(project.link)}
+              >
                 <a
                   href={project.link}
                   target="_blank"
@@ -43,6 +50,14 @@ const ProjectList = () => {
               </li>
             ))}
           </ul>
+        </div>
+        <div className="w-1/2 pl-4">
+          <iframe
+            className="w-full h-full"
+            id="inlineFrameExample"
+            title="Inline Frame Example"
+            src={link}
+          ></iframe>
         </div>
       </div>
 

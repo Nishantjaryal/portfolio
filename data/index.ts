@@ -538,6 +538,8 @@ export const navItems = [
         "Designed and developed AI-powered cyber security solutions to rapidly mitigate modern threats, ensuring 100% system security.",
       skills: ["Open-Source Software", "Cybersecurity", "AI"],
       logoText: "CY",
+            logo: "/cycrew.png"
+
     },
   ];
   
@@ -568,16 +570,22 @@ export const Latest_project_List = [
   },
   {
     id: 2,
+    title: "FinDash",
+    location: "AI-Powered Financial Dashboard",
+    link: "https://ns-fin-dashboard.netlify.app/",
+  },
+  {
+    id: 3,
     title: "PlayGround AI",
     location: "Scientific cloud AI testing models",
     link: "https://play-models.netlify.app/",
   },
   
   {
-    id: 3,
+    id: 4,
     title: "PDF RAG AI",
-    location: "Working Notebook LLM clone",
-    link: "https://play-models.netlify.app/",
+    location: "A PDF-based question-answering system that leverages Retrieval-Augmented Generation",
+    link: "https://github.com/Nishantjaryal/NoteBook-AI",
   },
   
   

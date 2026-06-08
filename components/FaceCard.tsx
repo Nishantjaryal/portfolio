@@ -2,8 +2,8 @@ import NavIcons from "./ui/NavIcons";
 
 function FaceCard() {
   return (
-    <div className="grid my-8 grid-cols-1 md:grid-cols-2 items-stretch w-[90%] gap-6 bg-[#000] h-full p-2 md:rounded-sm  min-w-[300px] min-h-[500px] overflow-hidden">
-      <div className="w-full min-w-[290px]  flex flex-col items-start justify-between p-8">
+    <div className="relative grid my-8 grid-cols-1 md:grid-cols-2 items-stretch w-[90%] gap-6 bg-[#000] h-full p-2 md:rounded-sm  min-w-[300px] min-h-[500px] overflow-hidden">
+   <div className=" relative z-10 w-full min-w-[290px]   flex flex-col items-start justify-between p-8">
         <div>
           <h1 className="text-4xl tracking-tighter max-w-md leading-tight text-[#fff] mb-4">
           Aspiring Software Engineer passionate about scalable systems and AI
@@ -15,8 +15,11 @@ function FaceCard() {
           <p className="text-sm font-semibold">Nishant Singh</p>
           <p className="text-xs">Software Developer</p>
         </div>
+        
       </div>
-      <div className="relative aspect-square overflow-hidden w-full rounded-sm">
+     
+      
+      <div className="relative z-10 aspect-square overflow-hidden w-full rounded-sm">
         <div className="absolute inset-0 *:size-full *:object-cover overflow-hidden">
           <img
             loading="lazy"

@@ -19,6 +19,7 @@
 
     --primary: 240 5.9% 10%;
     --primary-foreground: 0 0% 98%;
+    --black: 0 0% 0%;
 
     --secondary: 240 4.8% 95.9%;
     --secondary-foreground: 240 5.9% 10%;
@@ -48,6 +49,7 @@
 
     --popover: 0 0% 100%;
     --popover-foreground: 240 10% 10%;
+    --black: #000;
 
     --primary: 222 47% 25%;
     --primary-foreground: 0 0% 98%;
@@ -92,37 +94,52 @@
   }
 }
 
-.pop-animation{
+.pop-animation {
   scale: 0;
-  animation: pop .3s ease 1s 1 forwards ;
+  animation: pop 0.3s ease 1s 1 forwards;
 }
 
 @keyframes pop {
-  from{
+  from {
     scale: 0;
   }
-  to{
+  to {
     scale: 1;
   }
 }
 
-.pop-animation2{
+.pop-animation2 {
   scale: 0;
-  animation: pop .4s ease 1.4s 1 forwards ;
+  animation: pop 0.4s ease 1.4s 1 forwards;
 }
 
-.opa{
+.opa {
   opacity: 0;
-  animation: opa1 .4s ease 1.4s 1 forwards ;
-
+  animation: opa1 0.4s ease 1.4s 1 forwards;
 }
-
 
 @keyframes opa1 {
-  from{
+  from {
     opacity: 0;
   }
-  to{
+  to {
     opacity: 1;
+  }
+}
+
+@theme inline {
+  --animate-cell-ripple: cell-ripple var(--duration, 200ms) ease-out none 1
+  var(--delay, 0ms);
+
+  @keyframes cell-ripple {
+    0% {
+      opacity: 0.4;
+    }
+    50% {
+      opacity: 0.8;
+    }
+    100% {
+      opacity: 0.4;
+    }
   }
 }

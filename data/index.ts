@@ -75,7 +75,7 @@ export const navItems = [
       description:
         "PDF-based question-answering system built using the Retrieval-Augmented Generation (RAG).  Upload PDF documents and ask querries",
       link: "https://github.com/Nishantjaryal/NoteBook-AI",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
@@ -86,7 +86,7 @@ export const navItems = [
       description:
         "Data security and integrity are crucial in modern day computing, which requires efficient algorithmsto safeguard information.",
       link: "https://www.researchgate.net/publication/400280869_Data-Hash_A_Comparative_Analysis_of_Algorithms_and_Applications",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
@@ -97,7 +97,7 @@ export const navItems = [
       description:
         "Flappy Bird is a classic arcade-style game where the player controls a bird trying to fly between sets of pipes without hitting them.",
       link: "https://lets-fly-bird.netlify.app/",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
@@ -108,7 +108,7 @@ export const navItems = [
       description:
         "Developed a fun number finding game from a given number table, Comes with Simple Design but solid logic",
       link: "https://bubble-num.netlify.app/",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
@@ -119,7 +119,7 @@ export const navItems = [
       description:
         "Super Ping Pong Game: A fast-paced, browser-based ping pong game, Test your reflexes in this classic arcade-style challenge",
       link: "https://super-ping-pong.netlify.app/",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
@@ -130,7 +130,7 @@ export const navItems = [
       description:
         "codespeed is javascript based solution helps to calculate an accurate runtime of a portion of code to execute",
       link: "https://www.npmjs.com/package/codespeed",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
@@ -141,7 +141,7 @@ export const navItems = [
       description:
         "data-hash is very simple to use but yet very powerful package used to generate super strong hashes of given data",
       link: "https://www.npmjs.com/package/data-hash",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
@@ -153,7 +153,7 @@ export const navItems = [
       description:
         "Simple to use Dependency which generates super strong Hash codes, Secure and Solid Alternative To UUID",
       link: "https://www.npmjs.com/package/hash-rocket",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
@@ -164,7 +164,7 @@ export const navItems = [
       description:
         "Developed an interactive 2048 Game  with interactive appearance and Robust Game Engine logic",
       link: "https://play-2o48.netlify.app/",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
@@ -176,7 +176,7 @@ export const navItems = [
       description:
         "Developed an full stack chat App, built with webrtc and has an interactive UI, Users information is protected with Encryption",
       link: "https://github.com/Nishantjaryal/QuickPost",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
@@ -187,7 +187,7 @@ export const navItems = [
       description:
         "Developed a zoom clone with features like Video Calling, Call Recordings, Call Scheduling, Screencast, Integrated with Clerk Auth and Stream Api",
       link: "https://github.com/Nishantjaryal/zoom-clone",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
@@ -198,7 +198,7 @@ export const navItems = [
       description:
         " Developed an interactive Snake Game with customizable appearance, food type, speed, and growth rate using HTML, CSS, and JavaScript",
       link: "https://smart-hungary-snake.netlify.app/",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
@@ -209,7 +209,7 @@ export const navItems = [
       description:
         " Developed a Responsive Tic Tae Toe game with interactive design and animations ensures unbored user experience.",
       link: "https://smart-tic-tae-toe.netlify.app/",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
@@ -220,7 +220,7 @@ export const navItems = [
       description:
         " Integrate Machine Learning model with a web application, which can study a person’s behaviour based on provided files or camera input.",
       link: "https://ai-face-reader.netlify.app/",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
@@ -231,7 +231,7 @@ export const navItems = [
       description:
         " Developed College Bookclub website with Nextjs and Tailwind UI library integrated with clerk Auth Library and Shadcn components",
       link: "https://bkscape.netlify.app/",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "warning", // completed || testing || checked || warning
@@ -242,7 +242,7 @@ export const navItems = [
       description:
         "Application designed to generate JSON array, based on customised input requirements it can generate Testing data.",
       link: "https://build-json.netlify.app/",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
@@ -253,7 +253,7 @@ export const navItems = [
       description:
         "Modern Themed Animated presentation website with Interactive Ui elements and responsive design.",
       link: "https://ochi-craft.netlify.app/",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
@@ -264,7 +264,7 @@ export const navItems = [
       description:
         " web based application which identifies keywords from input paragraphs, Comes with basic text editting Functionalities ",
       link: "https://word-site.netlify.app/",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
@@ -275,7 +275,7 @@ export const navItems = [
       description:
         " Developed a Responsive Minesweeper game with interactive and responsive design ensures unbored user experience.",
       link: "https://minesweeper39.netlify.app/",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
@@ -287,7 +287,7 @@ export const navItems = [
       description:
         " Developed a Modern themed web designer’s studio website with eye catching animations.",
       link: "https://web-works-studio.netlify.app/",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
@@ -298,7 +298,7 @@ export const navItems = [
       description:
         "  Developed a Modern Desktop themed web based note taking application with Nextjs and Framer Motion library.",
       link: "https://floating-ideas.netlify.app/",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning
@@ -309,7 +309,7 @@ export const navItems = [
       description:
         " Developed clone of a beautifully crafted studio designer’s website with interactive modern ui animations",
       link: "https://design-my-studio.netlify.app/",
-      image: "/nj.jpg",
+      image: "/nj.webp",
       author: "Nishant Singh",
       authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
       state: "checked", // completed || testing || checked || warning

@@ -3,61 +3,79 @@
 import { experienceList, Latest_project_List } from "@/data";
 import Image from "next/image";
 import { useState } from "react";
+import { ImagesBadge } from "./ui/images-badge";
+import { TooltipContent } from "./footerlinkstooltip";
+import { LinkPreviewDemo } from "./footerlinks";
 
 const ProjectList = () => {
   const [link, setLink] = useState(Latest_project_List[0]?.link ?? "");
   return (
     <div
       data-component="Container"
-      className="mx-auto w-[95%] px-6 lg:px-10 flex flex-col gap-10 sm:gap-16"
+      className="mx-auto w-[95%] px-6 lg:px-10 flex flex-col gap-10 sm:gap-12"
     >
-      <div className="flex max-w-2xl flex-col gap-6">
-        <div className="flex flex-col gap-2">
-          <div className="font-mono text-xs/7 font-medium uppercase tracking-widest text-[var(--color-text-secondary)]">
-            experience
+      <div className="flex w-full flex-col pb-4 border-b-2">
+        <div className="flex max-w-3xl flex-col gap-6 ">
+          <div className="flex flex-col gap-2">
+            <div className="font-mono text-xs/7 font-medium uppercase tracking-widest text-[var(--color-text-secondary)]">
+              Recent Projects
+            </div>
+          </div>
+          <div
+            data-component="Text"
+            className="text-[var(--color-text-secondary)] text-pretty "
+          >
+            From AI-powered applications to scalable web platforms, I'm on a
+            mission to build technology that makes a difference.
           </div>
         </div>
-        <div
-          data-component="Text"
-          className="text-[var(--color-text-secondary)] text-pretty"
-        >
-          From AI-powered applications to scalable web platforms, I'm on a
-          mission to build technology that makes a difference.
+      </div>
+
+      <div className="flex max-md:flex-col w-full h-full gap-5">
+        <ul className="space-y-0 w-1/2 max-md:w-full min-w-[300px] divide-y divide-[var(--color-border)]">
+          {Latest_project_List.map((project) => (
+            <li
+              key={project.id}
+              onMouseEnter={() => setLink(project.link)}
+              onFocus={() => setLink(project.link)}
+            >
+              <a
+                href={project.link}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="group block px-0 py-6 transition-opacity duration-200 ease-in-out hover:opacity-100 opacity-60"
+              >
+                <h3 className="text-lg font-semibold text-[var(--color-text)] group-hover:text-[var(--color-text)]">
+                  {project.title}
+                </h3>
+                <p className="mt-1 text-sm text-[var(--color-text-secondary)]">
+                  {project.location}
+                </p>
+              </a>
+            </li>
+          ))}
+        </ul>
+        <div className="w-1/2 max-md:w-full flex flex-col justify-center items-center  min-w-[300px]  h-full">
+          <TooltipContent />
         </div>
       </div>
-      <div className="flex">
-        <div className="w-1/2 pr-4">
-          <ul className="space-y-0 divide-y divide-[var(--color-border)]">
-            {Latest_project_List.map((project) => (
-              <li
-                key={project.id}
-                onMouseEnter={() => setLink(project.link)}
-                onFocus={() => setLink(project.link)}
-              >
-                <a
-                  href={project.link}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="group block px-0 py-6 transition-opacity duration-200 ease-in-out hover:opacity-100 opacity-60"
-                >
-                  <h3 className="text-lg font-semibold text-[var(--color-text)] group-hover:text-[var(--color-text)]">
-                    {project.title}
-                  </h3>
-                  <p className="mt-1 text-sm text-[var(--color-text-secondary)]">
-                    {project.location}
-                  </p>
-                </a>
-              </li>
-            ))}
-          </ul>
-        </div>
-        <div className="w-1/2 pl-4">
-          <iframe
-            className="w-full h-full"
-            id="inlineFrameExample"
-            title="Inline Frame Example"
-            src={link}
-          ></iframe>
+
+      <div className="border-b-2 py-4">
+        <div className="flex max-w-4xl flex-col  mt-7 gap-6">
+          <div className="flex flex-col gap-2">
+            <div className="font-mono text-xs/7 font-medium uppercase tracking-widest text-[var(--color-text-secondary)]">
+              Work Experience
+            </div>
+          </div>
+          <div
+            data-component="Text"
+            className="text-[var(--color-text-secondary)] text-pretty"
+          >
+           
+In Alesa AI, I led frontend development of AI-powered web dashboards and chatbot interfaces using React and TypeScript. In Cycrew, I designed and built AI-driven cybersecurity automation solutions to detect and mitigate modern security threats.
+
+          </div>
+          
         </div>
       </div>
 
@@ -66,7 +84,7 @@ const ProjectList = () => {
           {experienceList.map((experience) => (
             <li key={experience.id} className="py-6">
               <div className="flex flex-col gap-4 sm:flex-row sm:gap-6">
-                <div className="h-12 w-12 shrink-0 rounded-lg bg-transparent text-[var(--color-text)] flex items-center justify-center text-sm font-semibold">
+                <div className="h-12 w-12 shrink-0 rounded-lg bg-transparent text-[var(--color-text)] flex items-center justify-start text-sm font-semibold">
                   {experience.logo ? (
                     <Image
                       src={experience.logo}

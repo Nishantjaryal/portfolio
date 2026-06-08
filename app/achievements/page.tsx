@@ -1,8 +1,6 @@
-import { HeroHighlightDemo } from '@/components/project-highlight'
 import Mycerts from "@/components/mycerts";
 import Link from 'next/link'
 import React from 'react'
-import { WorldMapComponent } from '@/components/worldMap';
 
 const page = () => {
   return (
@@ -24,9 +22,7 @@ const page = () => {
         Home
       </Link>
 
-      <HeroHighlightDemo />
       <Mycerts />
-      <WorldMapComponent />
     </div>
   );
 }

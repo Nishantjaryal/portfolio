@@ -1,7 +1,4 @@
 import FaceCard from "@/components/FaceCard";
-// import Footer from "@/components/Footer";
-import { LinkPreviewDemo } from "@/components/footerlinks";
-
 import ProjectList from "@/components/ProjectList";
 import { WorldMapComponent } from "@/components/worldMap";
 
@@ -15,16 +12,6 @@ export default function Home() {
 
       <ProjectList />
 
-      {/* <AnimatedPinDemo /> */}
-
-      {/* <div className="relative h-screen mb-5 flex flex-col items-center justify-center">
-        <WavyBackgroundDemo />
-        <InfiniteMovingCardsDemo />
-      </div> */}
-
-      
-
-      {/* Footer component is currently under review*/}
       <WorldMapComponent />
     </main>
   );

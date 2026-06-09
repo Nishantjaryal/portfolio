@@ -1,7 +1,6 @@
 import Github_chart from '@/components/ui/github_chart'
 import Myprojects from '@/components/ui/myprojects'
 import Link from 'next/link'
-import React from 'react'
 
 const page = () => {
   return (

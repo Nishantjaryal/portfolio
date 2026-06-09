@@ -1,22 +1,23 @@
 import { CertSheet } from "@/data";
 import Link from "next/link";
-import React from "react";
 
 const Mycerts = () => {
   return (
-    <div className="relative w-full min-h-screen  flex flex-row flex-wrap items-center justify-center gap-5 bg-black-100">
+    <div className="relative w-full min-h-screen mt-5 flex flex-row flex-wrap items-center justify-center gap-5 bg-black-100">
       {CertSheet.map((post, index) => (
         <article
           key={index}
-          className="p-6 bg-black rounded-lg border border-gray-200/[0.2] shadow-md min-w-[300px] max-w-[550px]"
+          className="p-6 bg-neutral-50 rounded-lg border border-gray-200/[0.2] shadow-md min-w-[300px] max-w-[550px]"
         >
+          <a href={post.link} target="_blank" rel="noopener noreferrer">
+   
           <div
             className="font-bold bg-clip-text text-transparent bg-gradient-to-br from-purple-500 to-pink-500"
           >
-            <h2 className="mb-2 text-2xl font-bold tracking-tight text-neutral-700 ">
-              <a href="#">{post.heading}</a>
+            <h2 className="mb-2 text-2xl font-semibold w-[90%] tracking-tight text-neutral-600 ">
+              {post.heading}
             </h2>
-            <p className="mb-5 text-[14px] md:text-[16px] font-light text-gray-100 ">
+            <p className="mb-5 text-[14px] md:text-[16px] font-light text-gray-700 ">
               {post.description}
             </p>
             <div className="flex justify-between   items-center">
@@ -25,7 +26,7 @@ const Mycerts = () => {
               <Link
                 target="_blank"
                 href={post.link}
-                className="inline-flex items-center font-medium text-primary hover:text-secondary "
+                className="flex items-center justify-between w-full font-medium text-primary hover:text-secondary "
               >
                 Certificate View
                 <svg
@@ -43,6 +44,7 @@ const Mycerts = () => {
               </Link>
             </div>
           </div>
+                 </a>
         </article>
       ))}
     </div>

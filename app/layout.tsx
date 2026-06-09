@@ -3,20 +3,11 @@ import type { Metadata } from "next";
 import "./globals.css";
 import { ThemeProvider } from "./provider";
 
-// const geistSans = Geist({
-//   variable: "--font-geist-sans",
-//   subsets: ["latin"],
-// });
-
-// const geistMono = Geist_Mono({
-//   variable: "--font-geist-mono",
-//   subsets: ["latin"],
-// });
 
 export const metadata: Metadata = {
-  title: "Nishant's portfolio",
+  title: "Nishant Singh | Software Developer",
   description:
-    "Nishant Singh | Full Stack Developer & Data Analyst | Proficient in Modern Web Technologies & Data Analytics & Visualization Tools",
+    "Nishant Singh | Software Developer | Passionate about building scalable systems and AI-powered applications. Explore my projects, certifications, and connect with me to see how we can create impactful technology together.",
 };
 
 export default function RootLayout({
@@ -37,7 +28,6 @@ export default function RootLayout({
             disableTransitionOnChange
           >
             {children}
-            
           </ThemeProvider>
         </body>
       </html>

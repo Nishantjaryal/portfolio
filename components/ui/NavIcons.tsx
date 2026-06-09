@@ -1,25 +1,24 @@
 import { cn } from "@/lib/utils";
 import Link from "next/link";
-import { AiFillHome } from "react-icons/ai";
 import { LuAirplay } from "react-icons/lu";
 import { MdContactMail } from "react-icons/md";
 
 const NavIcons = () => {
 
     const navItems = [
+    // {                       // Maybe add icon in future
+    //   name: "Home",
+    //   link: "/projects",
+    //   icon: <AiFillHome className="h-4 w-4 text-muted-foreground" />,
+    // },
     {
-      name: "Home",
+      name: "Projects",
       link: "/projects",
-      icon: <AiFillHome className="h-4 w-4 text-muted-foreground" />,
-    },
-    {
-      name: "Solve",
-      link: "https://leetcode.com/u/nishantjaryal/",
       icon: <LuAirplay className="h-4 w-4 text-muted-foreground" />,
     },
     {
       name: "Resume",
-      link: "https://drive.google.com/file/d/1IYR_auDQVsSVXY8duNPpMZfZfkDhr_5i/view?usp=sharing",
+      link: "https://drive.google.com/file/d/1hXAKKoNFSK1Ug7yNTPgb2VkmCmADVf66/view?usp=sharing",
       icon: (
         <MdContactMail className="h-4 w-4 text-muted-foreground" />
       ),

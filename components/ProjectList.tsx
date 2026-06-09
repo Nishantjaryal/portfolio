@@ -3,18 +3,17 @@
 import { experienceList, Latest_project_List } from "@/data";
 import Image from "next/image";
 import { useState } from "react";
-import { ImagesBadge } from "./ui/images-badge";
 import { TooltipContent } from "./footerlinkstooltip";
-import { LinkPreviewDemo } from "./footerlinks";
 
 const ProjectList = () => {
   const [link, setLink] = useState(Latest_project_List[0]?.link ?? "");
   return (
     <div
       data-component="Container"
-      className="mx-auto w-[95%] px-6 lg:px-10 flex flex-col gap-10 sm:gap-12"
+      className="mx-auto w-[95%] px-6 lg:px-10 mb-7 flex flex-col gap-10 sm:gap-12"
     >
-      <div className="flex w-full flex-col pb-4 border-b-2">
+      <div className="flex w-full flex-col gap-10">
+        <div className="flex w-full flex-col pb-4 border-b-2">
         <div className="flex max-w-3xl flex-col gap-6 ">
           <div className="flex flex-col gap-2">
             <div className="font-mono text-xs/7 font-medium uppercase tracking-widest text-[var(--color-text-secondary)]">
@@ -59,8 +58,10 @@ const ProjectList = () => {
           <TooltipContent />
         </div>
       </div>
-
-      <div className="border-b-2 py-4">
+      </div>
+      
+<div className="flex w-full flex-col gap-7">
+  <div className="border-b-2 py-4">
         <div className="flex max-w-4xl flex-col  mt-7 gap-6">
           <div className="flex flex-col gap-2">
             <div className="font-mono text-xs/7 font-medium uppercase tracking-widest text-[var(--color-text-secondary)]">
@@ -83,6 +84,7 @@ In Alesa AI, I led frontend development of AI-powered web dashboards and chatbot
         <ul className="space-y-0 divide-y divide-[var(--color-border)]">
           {experienceList.map((experience) => (
             <li key={experience.id} className="py-6">
+              <a href={experience.Acknowledgement}>
               <div className="flex flex-col gap-4 sm:flex-row sm:gap-6">
                 <div className="h-12 w-12 shrink-0 rounded-lg bg-transparent text-[var(--color-text)] flex items-center justify-start text-sm font-semibold">
                   {experience.logo ? (
@@ -99,9 +101,24 @@ In Alesa AI, I led frontend development of AI-powered web dashboards and chatbot
                 </div>
                 <div className="flex-1">
                   <div className="flex flex-col gap-1">
-                    <h3 className="text-lg font-semibold text-[var(--color-text)]">
+                    <div className="flex items-center justify-between gap-2">
+                      <h3 className="text-lg font-semibold text-[var(--color-text)]">
                       {experience.role}
-                    </h3>
+                    </h3> 
+                    <svg
+                    className="mr-4 w-4 h-4"
+                    fill="currentColor"
+                    viewBox="0 0 20 20"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      fillRule="evenodd"
+                      d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                      clipRule="evenodd"
+                    ></path>
+                  </svg>
+                    </div>
+                   
                     <div className="text-sm text-[var(--color-text-secondary)]">
                       {experience.company} · {experience.employmentType}
                     </div>
@@ -129,10 +146,13 @@ In Alesa AI, I led frontend development of AI-powered web dashboards and chatbot
                   ) : null}
                 </div>
               </div>
+              </a>
             </li>
           ))}
         </ul>
       </div>
+</div>
+      
     </div>
   );
 };

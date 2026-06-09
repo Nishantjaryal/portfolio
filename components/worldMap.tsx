@@ -1,6 +1,5 @@
 "use client";
 import WorldMap from "@/components/ui/world-map";
-import { motion } from "motion/react";
 import { CanvasText } from "./ui/canvas-text";
 import { cn } from "@/lib/utils";
 
@@ -10,7 +9,7 @@ export function WorldMapComponent() {
       <div className="w-[90%] ">
         <h2
           className={cn(
-            "sm:hidden group relative z-50 pb-4 w-full text-left text-4xl leading-20 font-bold tracking-tight text-balance text-neutral-600  bg-transparent",
+            "sm:hidden group relative z-50 py-4 w-full text-left text-4xl leading-20 font-semibold tracking-tighter text-balance text-neutral-600  bg-transparent",
           )}
         >
 

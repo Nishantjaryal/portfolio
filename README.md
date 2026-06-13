@@ -1,27 +1,7 @@
-![Screenshot 2025-06-19 071506](https://github.com/user-attachments/assets/5d3151df-7f32-4e72-ac6a-fc43bc242584)
-
-# 🌐 My Portfolio
-
-A sleek and modern personal portfolio website built with **Next.js**, styled using **Tailwind CSS**, and enhanced with **Aceternity UI** and **shadcn/ui** components.
+<img width="1698" height="838" alt="image" src="https://github.com/user-attachments/assets/de1761b7-d1c4-44ff-a4bf-723600dc7523" />
 
 
-## 🚀 Tech Stack
-
-- **Framework:** [Next.js](https://nextjs.org/)
-- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
-- **UI Components:**
-  - [Aceternity UI](https://ui.aceternity.com/)
-  - [shadcn/ui](https://ui.shadcn.com/)
+Over the past few months, I've been continuously learning, building projects, and expanding my skills in software development. To showcase my journey, projects, technical skills, and achievements, I've created my personal portfolio website.
 
 
-## ✨ Features
-
-- ⚡ Fast, responsive design
-- 🎨 Clean, aesthetic layout
-- 🧩 Reusable components
-- 🌗 Dark mode support
-- 📱 Fully responsive on all devices
-- 🧠 Minimal animations for a modern touch
-- 🧾 Project and contact sections
-- 📂 Organized and scalable codebase
-
+[Portfolio](https://nishantsingh.netlify.app/)

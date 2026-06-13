@@ -17,7 +17,7 @@ export function WorldMapComponent() {
 
 
           <CanvasText
-            className=""
+            className="tracking-tight"
             text="Lightning Speed"
             backgroundClassName="bg-blue-600 "
             colors={[

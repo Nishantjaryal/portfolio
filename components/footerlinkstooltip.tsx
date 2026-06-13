@@ -8,21 +8,21 @@ export function TooltipContent() {
   return (
     <div className="max-w-2xl h-full w-full justify-start items-start  flex flex-col gap-7 ">
       <div className="flex flex-col h-full gap-7 w-[90%] text-left">
-        <div className="text-neutral-600 text-sm text-pretty">
+        <div className="text-neutral-500 text-sm text-pretty">
           <b>Retrieval-Augmented Generation</b> React frontend, Express.js as
           the backend API layer, LangChain for orchestrating the
           Retrieval-Augmented Generation pipeline, and Qdrant as the vector
           database for semantic search.{" "}
           {/* <Tooltip
-          containerClassName="text-neutral-600 text-sm "
+          containerClassName="text-neutral-500 text-sm "
           content="AWS markets itself as the “world's most comprehensive and broadly adopted cloud platform” offering over 200 fully featured services globally."
         >
           <span className="font-bold ">AWS</span>
         </Tooltip>{" "} */}
         </div>
-        <div className=" text-neutral-600 text-sm text-pretty ">
+        <div className=" text-neutral-500 text-sm text-pretty ">
           {/* <Tooltip
-          containerClassName="text-neutral-600 text-sm"
+          containerClassName="text-neutral-500 text-sm"
           content={<TooltipCard />}
         >
           {" "}
@@ -35,9 +35,9 @@ export function TooltipContent() {
           session state, and fault-tolerant reconnection logic
         </div>
 
-        <div className=" text-neutral-600 text-sm text-pretty ">
+        <div className=" text-neutral-500 text-sm text-pretty ">
           {/* <Tooltip
-          containerClassName="text-neutral-600 text-sm "
+          containerClassName="text-neutral-500 text-sm "
           content={<TestimonialCard />}
         >
           {" "}
@@ -47,9 +47,9 @@ export function TooltipContent() {
           live web interface, handling input preprocessing, model inference, and
           output rendering.
         </div>
-        <div className=" text-neutral-600 text-sm text-pretty ">
+        <div className=" text-neutral-500 text-sm text-pretty ">
           {/* <Tooltip
-          containerClassName="text-neutral-600 text-sm "
+          containerClassName="text-neutral-500 text-sm "
           content={<TestimonialCard />}
         >
           {" "}
@@ -62,7 +62,7 @@ export function TooltipContent() {
 
         <div className="flex items-center">
           <Link href="/projects" className="mr-4">
-            <ImagesBadge text="More Projects" images={[]} />
+            <ImagesBadge className="text-neutral-500" text="More Projects" images={[]} />
 
             {/* <p className="font-semibold text-sm">View More Projects</p> */}
           </Link>
@@ -77,7 +77,7 @@ const TooltipCard = () => {
     <div className="bg-slate-100">
       <div className="my-4 flex flex-col">
         <p className="text-lg font-bold">Tyler Durden</p>
-        <p className="mt-1 text-xs text-neutral-600 text-sm ">
+        <p className="mt-1 text-xs text-neutral-500 text-sm ">
           Soap Developer from a Tier 3 college. Enthusiastic and exhibits
           entrepreneurial spirit.
         </p>
@@ -102,7 +102,7 @@ const TestimonialCard = () => {
           <p className="text-xs font-semibold text-neutral-900 ">
             Tyler Durden
           </p>
-          <p className="text-[10px] text-neutral-600 text-sm ">
+          <p className="text-[10px] text-neutral-500 text-sm ">
             Senior Product Manager at FC
           </p>
         </div>

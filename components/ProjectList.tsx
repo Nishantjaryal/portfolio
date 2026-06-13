@@ -16,13 +16,13 @@ const ProjectList = () => {
         <div className="flex w-full flex-col pb-4 border-b-2">
         <div className="flex max-w-3xl flex-col gap-6 ">
           <div className="flex flex-col gap-2">
-            <div className="font-mono text-xs/7 font-medium uppercase tracking-widest text-[var(--color-text-secondary)]">
+            <div className="font-mono text-xs/7 font-medium uppercase tracking-widest text-neutral-700">
               Recent Projects
             </div>
           </div>
           <div
             data-component="Text"
-            className="text-[var(--color-text-secondary)] text-pretty "
+            className="text-neutral-700 text-pretty "
           >
             From AI-powered applications to scalable web platforms, I'm on a
             mission to build technology that makes a difference.
@@ -30,7 +30,7 @@ const ProjectList = () => {
         </div>
       </div>
 
-      <div className="flex max-md:flex-col w-full h-full gap-5">
+      <div className="flex max-md:flex-col w-full h-full gap-7">
         <ul className="space-y-0 w-1/2 max-md:w-full min-w-[300px] divide-y divide-[var(--color-border)]">
           {Latest_project_List.map((project) => (
             <li
@@ -47,14 +47,14 @@ const ProjectList = () => {
                 <h3 className="text-lg font-semibold text-[var(--color-text)] group-hover:text-[var(--color-text)]">
                   {project.title}
                 </h3>
-                <p className="mt-1 text-sm text-[var(--color-text-secondary)]">
+                <p className="mt-1 text-sm text-neutral-700">
                   {project.location}
                 </p>
               </a>
             </li>
           ))}
         </ul>
-        <div className="w-1/2 max-md:w-full flex flex-col justify-center items-center  min-w-[300px]  h-full">
+        <div className="w-1/2 max-md:w-full flex flex-col justify-center items-center pt-4 min-w-[300px]  h-full">
           <TooltipContent />
         </div>
       </div>
@@ -64,13 +64,13 @@ const ProjectList = () => {
   <div className="border-b-2 py-4">
         <div className="flex max-w-4xl flex-col  mt-7 gap-6">
           <div className="flex flex-col gap-2">
-            <div className="font-mono text-xs/7 font-medium uppercase tracking-widest text-[var(--color-text-secondary)]">
+            <div className="font-mono text-xs/7 font-medium uppercase tracking-widest text-neutral-700">
               Work Experience
             </div>
           </div>
           <div
             data-component="Text"
-            className="text-[var(--color-text-secondary)] text-pretty"
+            className="text-neutral-700 text-pretty"
           >
            
 In Alesa AI, I led frontend development of AI-powered web dashboards and chatbot interfaces using React and TypeScript. In Cycrew, I designed and built AI-driven cybersecurity automation solutions to detect and mitigate modern security threats.
@@ -119,17 +119,17 @@ In Alesa AI, I led frontend development of AI-powered web dashboards and chatbot
                   </svg>
                     </div>
                    
-                    <div className="text-sm text-[var(--color-text-secondary)]">
+                    <div className="text-sm text-neutral-700">
                       {experience.company} · {experience.employmentType}
                     </div>
-                    <div className="text-sm text-[var(--color-text-secondary)]">
+                    <div className="text-sm text-neutral-700">
                       {experience.dateRange} · {experience.duration}
                     </div>
-                    <div className="text-sm text-[var(--color-text-secondary)]">
+                    <div className="text-sm text-neutral-700">
                       {experience.location}
                     </div>
                   </div>
-                  <p className="mt-3 text-sm text-[var(--color-text-secondary)]">
+                  <p className="mt-3 text-sm text-neutral-700">
                     {experience.description}
                   </p>
                   {experience.skills?.length ? (
@@ -137,7 +137,7 @@ In Alesa AI, I led frontend development of AI-powered web dashboards and chatbot
                       {experience.skills.map((skill) => (
                         <span
                           key={skill}
-                          className="rounded-full border border-[var(--color-border)] px-3 py-1 text-xs text-[var(--color-text-secondary)]"
+                          className="rounded-full border border-[var(--color-border)] px-3 py-1 text-xs text-neutral-700"
                         >
                           {skill}
                         </span>

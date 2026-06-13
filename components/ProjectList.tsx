@@ -12,11 +12,11 @@ const ProjectList = () => {
       data-component="Container"
       className="mx-auto w-[95%] px-6 lg:px-10 mb-7 flex flex-col gap-10 sm:gap-12"
     >
-      <div className="flex w-full flex-col gap-10">
+      <div className="flex w-full flex-col gap-10 ">
         <div className="flex w-full flex-col pb-4 border-b-2">
         <div className="flex max-w-3xl flex-col gap-6 ">
           <div className="flex flex-col gap-2">
-            <div className="font-mono text-xs/7 font-medium uppercase tracking-widest text-neutral-700">
+            <div className="font-mono text-xs/7 font-medium uppercase tracking-widest text-neutral-800">
               Recent Projects
             </div>
           </div>
@@ -64,7 +64,7 @@ const ProjectList = () => {
   <div className="border-b-2 py-4">
         <div className="flex max-w-4xl flex-col  mt-7 gap-6">
           <div className="flex flex-col gap-2">
-            <div className="font-mono text-xs/7 font-medium uppercase tracking-widest text-neutral-700">
+            <div className="font-mono text-xs/7 font-medium uppercase tracking-widest text-neutral-800">
               Work Experience
             </div>
           </div>

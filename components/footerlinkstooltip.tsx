@@ -1,5 +1,4 @@
 "use client";
-import { Tooltip } from "@/components/ui/tooltip-card";
 
 import Link from "next/link";
 import { ImagesBadge } from "./ui/images-badge";

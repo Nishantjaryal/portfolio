@@ -1,6 +1,5 @@
 import { projectSheet } from '@/data'
 import Link from 'next/link'
-import React from 'react'
 
 const Myprojects = () => {
   return (
@@ -11,7 +10,7 @@ const Myprojects = () => {
               href={post.link}
               target="_blank"
               rel="noopener noreferrer"
-              className="p-6 bg-neutral-50 rounded-lg border border-gray-200/[0.2] shadow-md min-w-[300px] max-w-[550px]"
+              className="p-6 bg-neutral-50 rounded-lg border border-gray-200/[0.4] shadow-md min-w-[300px] max-w-[550px]"
             >
                  <div
               className="font-bold bg-clip-text text-[#000] bg-gradient-to-br from-purple-500 to-pink-500"

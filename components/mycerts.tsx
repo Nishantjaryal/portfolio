@@ -7,7 +7,7 @@ const Mycerts = () => {
       {CertSheet.map((post, index) => (
         <article
           key={index}
-          className="p-6 bg-neutral-50 rounded-lg border border-gray-200/[0.2] shadow-md min-w-[300px] max-w-[550px]"
+          className="p-6 bg-neutral-50 rounded-lg border border-gray-200/[0.4] shadow-md min-w-[300px] max-w-[550px]"
         >
           <a href={post.link} target="_blank" rel="noopener noreferrer">
    

@@ -411,7 +411,7 @@ export const experienceList = [
   {
     id: 1,
     company: "Alesa Ai Ltd",
-    role: "Prompt Engineer Intern",
+    role: "Engineer Intern",
     employmentType: "Internship",
     dateRange: "Sep 2025 - May 2026",
     duration: "9 mos",

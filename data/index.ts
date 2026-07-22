@@ -34,6 +34,39 @@ export const testimonials = [
 export const projectSheet = [
   {
     type: "link", // docs || post || link || pdf || news || media || zip
+    heading: "FinDash: AI Financial Dashboard",
+    description:
+      "Built using serverless architecture. It leverages AI to analyze spending patterns, generate insights, and provide personalized financial recommendations.",
+    link: "https://ns-fin-dashboard.netlify.app/",
+    image: "/nj.webp",
+    author: "Nishant Singh",
+    authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+    state: "checked", // completed || testing || checked || warning
+  },
+  {
+    type: "link", // docs || post || link || pdf || news || media || zip
+    heading: "Playground AI",
+    description:
+      "The objective was to compare model behavior, prompt sensitivity, and output quality under different configurations to understand impacts on response reliability",
+    link: "https://github.com/Nishantjaryal/PlaygroundAi/",
+    image: "/nj.webp",
+    author: "Nishant Singh",
+    authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+    state: "checked", // completed || testing || checked || warning
+  },
+  {
+    type: "link", // docs || post || link || pdf || news || media || zip
+    heading: "ResumeStack ",
+    description:
+      "An AI-Powered Resume Analysis and Job Preparation Platform that leverages advanced AI algorithms to provide personalized preparation.",
+    link: "https://resumestack.vercel.app/",
+    image: "/nj.webp",
+    author: "Nishant Singh",
+    authorLink: "https://www.linkedin.com/in/nishant-singh-jaryal/",
+    state: "checked", // completed || testing || checked || warning
+  },
+  {
+    type: "link", // docs || post || link || pdf || news || media || zip
     heading: "AI: Google's Notebook LLM clone",
     description:
       "PDF-based question-answering system built using the Retrieval-Augmented Generation (RAG).  Upload PDF documents and ask querries",
@@ -279,6 +312,30 @@ export const projectSheet = [
   },
 ];
 export const CertSheet = [
+  {
+    heading: "Cisco: Ethical Hacker",
+    description:
+      "Cisco verifies the earner of this badge successfully completed the Ethical Hacker course ",
+    link: "https://www.credly.com/badges/1759f1ed-0eaa-40ed-9d53-0955d692fe33/linked_in_profile",
+  },
+  {
+    heading: "Machine Learning Specialization",
+    description:
+      "Deeplearning.Ai verifies the earner of this badge successfully completed the Machine Learning Specialization",
+    link: "https://learn.deeplearning.ai/certificates/15f88b2d-05b4-40f8-a771-ef8e538b9c35",
+  },
+  {
+    heading: "Claude 101",
+    description:
+      "Claude 101 is a comprehensive course that provides an in-depth understanding claude ai applications in various domains.",
+    link: "https://verify.skilljar.com/c/4ovko79jc4rh",
+  },
+  {
+    heading: "Al Fluency Framework & Foundations",
+    description:
+      "AI Fluency certification is designed to equip individuals with the knowledge and skills needed to effectively navigate artificial intelligence.",
+    link: "https://verify.skilljar.com/c/wh9wsfvmmpsn",
+  },
   {
     heading: "OCI 2025 Certified Generative AI Professional",
     description:
